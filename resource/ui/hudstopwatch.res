@@ -1,0 +1,165 @@
+"Resource/UI/HudStopWatch.res"
+{
+
+	"StopWatchImageCaptureTime"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"StopWatchImageCaptureTime"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/ico_time_10"
+		"scaleImage"		"1"	
+		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
+		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+	}
+	
+	"TimePanelBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TimePanelBG"
+		"xpos"			"16"
+		"ypos"			"25"
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"	
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"		"40 40 40 255"
+	}
+
+	"ObjectiveStatusTimePanel"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"			"ObjectiveStatusTimePanel"
+		"xpos"				"16"
+		"ypos"				"-25"	[$WIN32]
+		"zpos"				"5"
+		"wide"				"60"
+		"tall"				"60"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"		"ClockSubTextTiny"
+			"fgcolor"		"White"
+			"xpos"			"0"
+			"ypos"			"45"
+			"zpos"			"3"
+			"wide"			"60"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"center"
+		}		
+	}
+
+
+	"StopWatchScoreToBeat"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"StopWatchScoreToBeat"
+		"font"			"ClockSubTextTiny"
+		"labelText"		"%scoretobeat%"
+		"textAlignment"		"west"
+		"xpos"			"18"
+		"ypos"			"20"
+		"zpos"			"4"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fgcolor"		"White"
+			
+	}
+	"StopWatchPointsLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"StopWatchPointsLabel"
+		"font"			"HudFontSmallest"
+		"labelText"		"%pointslabel%"
+		"textAlignment"		"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		"fgcolor"		"White"
+	}
+
+	"StopWatchLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"StopWatchLabel"
+		"font"			"SpectatorVerySmall"
+		"labelText"		"0:00"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		"fgcolor"		"White"
+	}
+	
+	"HudStopWatchDescriptionBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudStopWatchDescriptionBG"
+		"xpos"			"16"
+		"ypos"			"25"
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"	
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"		"45 45 45 255"
+	}
+	
+
+	"StopWatchDescriptionLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"StopWatchDescriptionLabel"
+		"font"			"ClockSubTextTiny"
+		"labelText"		"%descriptionlabel%"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+	}
+}
