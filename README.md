@@ -1,6 +1,6 @@
 # Isaac Hud
 
-A Simple but Stylish HUD for TF2
+A Simple and Stylish HUD for TF2
 
 I appreciate any kind of feedback, if you have ideas or problems contact me: http://steamcommunity.com/profiles/76561198035076861
 
