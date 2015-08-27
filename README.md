@@ -6,10 +6,10 @@ I appreciate any kind of feedback, if you have ideas or problems contact me: htt
 
 # How to Install
 
-*Click the [b]Download ZIP[/b] button to download Isaac-Hud-master.zip (You can rename it if you want to)
-*Find you Steam install directory and go to SteamApps\Common\Team Fortress 2\tf
-*Make a folder called `custom` if you dont already have one
-*Extract the content of the zip file into the custom folder. (You can rename the Isaac-Hud-master folder to whatever you want)
+* Click the **Download ZIP** button to download Isaac-Hud-master.zip (You can rename it if you want to)
+* Find you Steam install directory and go to SteamApps\Common\Team Fortress 2\tf
+* Make a folder called `custom` if you dont already have one
+* Extract the content of the zip file into the custom folder. (You can rename the Isaac-Hud-master folder to whatever you want)
 
 # Customization
 
