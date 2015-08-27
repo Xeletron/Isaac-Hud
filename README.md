@@ -14,3 +14,10 @@ I appreciate any kind of feedback, if you have ideas or problems contact me: htt
 # Customization
 
 Customization options are not yet available. If you want to suggest a costumization option you can do so by contacting me via the link above
+
+Special Thanks to theese folks:
+
+Pulep™ for screenshots
+Pile for screenshots and testing
+TurelHun for testing
+misterbilder for testing and ideas
