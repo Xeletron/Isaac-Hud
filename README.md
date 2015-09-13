@@ -2,7 +2,7 @@
 
 A Simple and Stylish HUD for TF2
 
-I appreciate any kind of feedback, if you have ideas or problems you can contact me at the steam group: 
+I appreciate any kind of feedback, if you have ideas or problems you can contact me at via steam group: 
 http://steamcommunity.com/groups/IsaacHud
 
 # How to Install
