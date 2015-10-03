@@ -51,7 +51,7 @@ event OpenWeaponSelectionMenu
 	StopEvent WeaponPickup				0.0
 
 	// make the display visible
-	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
+	Animate HudWeaponSelection Alpha 		"0"			Linear 0.0 0.5
 	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
 	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
 	//Animate HudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1

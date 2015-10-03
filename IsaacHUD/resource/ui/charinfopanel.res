@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"25 25 25 0"
+		"bgcolor_override"				"25 25 25 255"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
@@ -28,7 +28,7 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"20"
 	}
 
 	"BackgroundHeader"
@@ -87,6 +87,7 @@
 		"fieldName"		"Sheet"
 		"tabxindent"	"10"
 		"tabxdelta"		"10"
+		"tabydelta"		"5"
 		"tabwidth"		"220"
 		"tabheight"		"24"
 		"transition_time" "0"

@@ -27,11 +27,38 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
-	}
+	}	
 	"DisguiseStatusBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
+		"xpos"			"7"
+		"ypos"			"30"
+		"zpos"			"9"
+		"wide"			"2"
+		"tall"	 		"30"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		
+		"src_corner_height"		"12"				// pixels inside the image
+		"src_corner_width"		"12"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	"DisguiseStatusBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DisguiseStatusBackground"
 		"xpos"			"45"
 		"ypos"			"30"
 		"zpos"			"-1"
@@ -44,29 +71,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"25 25 25 255"
-	}
-	"HudHealthTeamLine"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudHealthTeamLine"
-		"xpos"			"7"
-		"ypos"			"30"
-		"ypos"			"43"
-		"zpos"			"9"
-		"wide"			"2"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../hud/color_panel_red"
-		"teambg_2"		"../hud/color_panel_blu"
-		"teambg_3"		"../hud/color_panel_red"
-		"src_corner_height"		"12"
-		"src_corner_width"		"12"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
 	}
 
 	"DisguiseNameLabel"

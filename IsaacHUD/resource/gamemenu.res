@@ -86,7 +86,7 @@
 		"label"			"Console"
 		"Command"		"engine toggleconsole"
 		"subimage"		"glyph_workshop_edit"
-		"tooltip" 		"Console"
+		"tooltip" 		"#GameUI_Console"
 	}
 	
 	"FPSButton"
@@ -129,7 +129,7 @@
 	{
 		"label"			"Minmode"
 		"Command"		"engine toggle cl_hud_minmode"
-		"tooltip" 		"6v6 / 12v12 Scoreboard"
+		"tooltip" 		"Change scoreboard"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	

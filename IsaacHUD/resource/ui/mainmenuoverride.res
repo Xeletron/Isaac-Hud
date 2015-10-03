@@ -203,10 +203,6 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
-		if_operation
-		{
-			"image"		"../console/title_summer_operation_2015"
-		}
 	}
 					
 	"TFLogoImage"
@@ -261,7 +257,7 @@
         "ControlName"   "CExLabel"
         "fieldName"     "HudLabel"
         "font"          "HudFontSmallestBold"
-        "labelText"     "Isaac Hud 1.1"
+        "labelText"     "Isaac Hud 1.2"
         "textAlignment" "east"
         "xpos"          "r152"
         "ypos"          "r15"
@@ -384,7 +380,8 @@
             "labelText"     "#MMenu_StartPlaying"
             "font"          "HudFontSmallBold"
             "textAlignment" "west"
-            "textinsetx"    "55"
+			"use_proportional_insets" "1"
+            "textinsetx"    "25"
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "1"

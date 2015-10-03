@@ -271,7 +271,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"7"
+			"xpos"			"9"
 			"ypos"			"10"
 			"zpos"			"7"
 			"wide"			"30"
@@ -300,7 +300,7 @@
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"			"c-136"
+		"xpos"			"c-138"
 		"ypos"			"245"
 		"zpos"				"10"
 		"wide"				"44"

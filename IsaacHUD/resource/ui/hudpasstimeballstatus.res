@@ -77,6 +77,44 @@
 		"scaleImage"	"1"
 	}
 	
+	"BaseIconBlue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BaseIconBlue"	
+		"xpos"			"c-60"
+		"ypos"			"r60"
+		"zpos"			"1"									
+		"wide"			"1"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../hud/cart_home_blue"
+		"scaleImage"	"1"	
+	}
+
+	"BaseIconRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BaseIconRed"	
+		"xpos"			"c60"
+		"ypos"			"r60"
+		"zpos"			"1"									
+		"wide"			"1"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../hud/cart_home_red"
+		"scaleImage"	"1"	
+	}
+	
 	"Background"
 	{
 		"ControlName"	"EditablePanel"
