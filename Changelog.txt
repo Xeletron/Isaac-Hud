@@ -8,3 +8,10 @@ Version 1.1 (2015.09.23)
 - Added some overrides
 - Fixed some issues on low resolution
 
+Version 1.2 (2015.10.03)
+- Added the new inspect cosmetics dialog featured in the latest update
+- Added Custom Fonts and 16v16 Scoreboard override
+- Removed the gun mettle background
+- Fixed the spy disguise status not displaying teams right
+- Fixed some more issues on low resolution
+- Fixed some issues with passtime
