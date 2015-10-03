@@ -16,6 +16,9 @@ http://steamcommunity.com/groups/IsaacHud
 
 Costumizations are included in the overrides folder. If you want to see more you can suggest one here:
 http://steamcommunity.com/groups/IsaacHud/discussions/0/523897277918200508/
+`The following steps are not required but reccomended:`
+In advanced options check the "TargetID - Disable Floating Healthbar" mark and set the TargetID Alpha to 255
+
 
 # Special Thanks to these folks:
 
