@@ -9,9 +9,8 @@ If you want to keep up with updates or have ideas join the [steam group!](http:/
 * Find your Steam install directory and go to **\SteamApps\Common\Team Fortress 2\tf**
 * Make a folder called `custom` if you dont already have one
 * Extract the IsaacHUD folder from the zip file into the custom folder.
-*
-
 * **The following steps are not required but recommended:** 
+* 
 * In advanced options check the "TargetID - Disable Floating Healthbar" mark
 * set the TargetID Alpha to 255
 
