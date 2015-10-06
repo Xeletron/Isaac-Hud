@@ -17,8 +17,7 @@ If you want to keep up with updates or have ideas join the [steam group!](http:/
 
 # Customization
 
-Costumizations are included in the overrides folder. If you want to see more you can suggest one here:
-http://steamcommunity.com/groups/IsaacHud/discussions/0/523897277918200508/
+Overrides are included in the `overrides` folder. If you want to see more you can suggest one [here](http://steamcommunity.com/groups/IsaacHud/discussions/0/523897277918200508/).
 
 
 # Special Thanks
