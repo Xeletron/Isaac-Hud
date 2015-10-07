@@ -691,7 +691,7 @@
 		"enabled" "1"
 		"xpos" "r175" [$WIN32]
 		"ypos" "0" [$WIN32]
-		"wide" "145"
+		"wide" "165"
 		"tall" "350"
 
 		"item_wide"			"200"
@@ -984,7 +984,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c80"	[$WIN32]
-		"ypos"			"r111"	[$WIN32]
+		"ypos"			"r96"	[$WIN32]
 		"zpos"			"3"	[$WIN32]
 		"wide"			"70"
 		"tall"			"14"

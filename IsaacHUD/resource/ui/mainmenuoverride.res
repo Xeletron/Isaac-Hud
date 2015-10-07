@@ -203,6 +203,10 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 					
 	"TFLogoImage"
@@ -257,7 +261,7 @@
         "ControlName"   "CExLabel"
         "fieldName"     "HudLabel"
         "font"          "HudFontSmallestBold"
-        "labelText"     "Isaac Hud 1.2"
+        "labelText"     "Isaac Hud 1.3"
         "textAlignment" "east"
         "xpos"          "r152"
         "ypos"          "r15"
