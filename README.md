@@ -1,7 +1,8 @@
 # Isaac Hud
 
 A Simple and Stylish HUD for TF2
-If you want to keep up with updates or have ideas join the [steam group!](http://steamcommunity.com/groups/IsaacHud)
+If you want to keep up with updates or have ideas join the steam group:
+http://steamcommunity.com/groups/IsaacHud
 
 # Installation 
 
