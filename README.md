@@ -20,6 +20,28 @@ http://steamcommunity.com/groups/IsaacHud
 
 Overrides are included in the `overrides` folder. If you want to see more you can suggest one [here](http://steamcommunity.com/groups/IsaacHud/discussions/0/523897277918200508/).
 
+##Custom Crosshairs##
+
+* Open the hudlayout.res file inside the scripts folder.
+* Find the FogCrosshairs part (its the first one, so it should be easy to find it)
+* Enable the crosshair by changing the value of visible to 1
+* Change the value of labelText to the number you selected from Crosshairs.png
+* You can set the color and opacity of the crosshair by changing the RGBA value of fgcolor
+* If the crosshair you selected is not fully at the center, play around with the x and y positions
+
+##Transparent Viewmodels##
+
+* Open the hudlayout.res file inside the scripts folder.
+* Find the Transparent Viewmodels part
+* Enable Transparent Viewmodel by changing the value of visible to 1
+
+##Favorite Server##
+
+* Open the gamemenu.res file inside the resource folder
+* Find the FavServerButton part
+* Replace the <IP> part with the IP of your chosen sever
+* You can change the tooltip to whatever you want
+
 
 # Special Thanks
 
