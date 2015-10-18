@@ -261,7 +261,7 @@
         "ControlName"   "CExLabel"
         "fieldName"     "HudLabel"
         "font"          "HudFontSmallestBold"
-        "labelText"     "Isaac Hud 1.3"
+        "labelText"     "Isaac Hud 1.4"
         "textAlignment" "east"
         "xpos"          "r152"
         "ypos"          "r15"
@@ -780,6 +780,71 @@
                 "image"         "lyph_server_browser"
             }               
         }
+    }
+
+	"FavServerButton"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "FavServerButton"
+        "xpos"          "224"
+        "ypos"          "183"
+        "zpos"          "12"
+        "wide"          "20"
+        "tall"          "20"
+        "visible"       "1"
+
+        "navDown"       "PlayPVEButton"
+        "navLeft"       "QuickplayButton"
+        "navRight"      "TrainingButton"
+        "navToRelay"    "SubButton"
+        
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "20"
+            "tall"          "20"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+            "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "100"
+            "use_proportional_insets" "1"
+            "font"          "HudFontSmallBold"
+            "textAlignment" "west"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            "sound_depressed"   "UI/buttonclick.wav"
+            "sound_released"    "UI/buttonclickrelease.wav"
+            
+            "paintbackground"   "1"
+            "border_default"            "NoBorder"
+            "border_armed"              "NoBorder"
+            
+            "image_drawcolor"   "255 255 255 255"
+            "image_armedcolor"  "255 255 255 255"
+            "defaultBgcolor_override"       "50 50 50 255"
+            "armedBgColor_override" "35 35 35 255"
+            
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "4"
+                "ypos"          "4"
+                "zpos"          "1"
+                "wide"          "12"
+                "tall"          "12"
+                "visible"       "1"
+                "enabled"       "1"
+                "image"         "replay/thumbnails/glyph_star"
+                "scaleImage"    "1"
+            }               
+        }       
     }	
 	
 	"ResumeGameButton"
@@ -2346,8 +2411,8 @@
             "tabPosition"   "0"
             "font"          "HudFontSmallestBold"
             "labelText"     "FPS"
-            "textAlignment" "west"
-            "textinsetx"    "2"
+            "textAlignment" "center"
+            "textinsetx"    "0"
             "use_proportional_insets" "1"
             "dulltext"      "0"
             "brighttext"    "0"

@@ -116,7 +116,7 @@
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
-	}
+	}	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -171,8 +171,8 @@
 		"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -326,8 +326,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -343,8 +343,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -360,8 +360,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -384,7 +384,7 @@
 		"fgcolor"		"TanDark"
 	}
 	
-		"PlayerStatus_RuneStrength"
+	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"

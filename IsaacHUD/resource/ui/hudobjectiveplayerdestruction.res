@@ -536,6 +536,7 @@
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
+				
 			"BlueVictoryContainer"
 			{
 				"fieldName"				"BlueVictoryContainer"
@@ -591,19 +592,15 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"0"
-					"wide"			"0"
-					"tall"			"0"
-					"visible"		"0"
-					"enabled"		"0"
+					"wide"			"100"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumSmallBold"
 					"fgcolor"		"255 255 255 255"		
 					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
 				}
 
 				"VictoryLabelTimeShadow"
@@ -622,10 +619,6 @@
 					"font"			"HudFontSmallBold"
 					"fgcolor"		"Black"		
 					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
 				}
 			}
 
@@ -734,8 +727,8 @@
 			{
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
-				"xpos"					"0"
-				"ypos"					"0"
+				"xpos"					"18"
+				"ypos"					"20"
 				"zpos"					"5"
 				"wide"					"100"
 				"tall"					"24"
@@ -786,19 +779,15 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"8"
-					"wide"			"55"
-					"tall"			"35"
+					"wide"			"100"
+					"tall"			"24"
 					"visible"		"1"
 					"enabled"		"1"
 					"textAlignment"	"east"	
 					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallestBold"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"255 255 255 255"		
 					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
 				}
 
 				"VictoryLabelTimeShadow"
@@ -817,10 +806,6 @@
 					"font"			"HudFontSmallBold"
 					"fgcolor"		"Black"		
 					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
 				}
 			}
 

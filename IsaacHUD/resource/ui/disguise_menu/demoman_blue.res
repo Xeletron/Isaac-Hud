@@ -94,6 +94,7 @@
 		"fgcolor"		"Black"
 		"xpos"			"15"
 		"ypos"			"80"
+		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"

@@ -78,36 +78,34 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
+		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"30"
-		"tall"					"15"
+		"zpos"					"3"
+		"wide"					"68"
+		"tall"					"14"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
-	}
+		"font"					"HudFontSmallestBold"
+		"fgcolor_override"		"25 25 25 255"
+	}	
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"4"
-		"ypos"					"4"
+		"xpos"					"2"
+		"ypos"					"3"
 		"zpos"					"2"
-		"wide"					"38"
-		"tall"					"6"				
+		"wide"					"64"
+		"tall"					"8"					
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -115,5 +113,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
+		"bgcolor_override"		"70 70 70 180"
+		"fgcolor_override"		"25 25 25 255"
+			
+	}			
 }

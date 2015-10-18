@@ -2557,6 +2557,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Crosshair
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+			}
+		}
 		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
@@ -7092,7 +7103,12 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}
-		}			
+		}
+		
 		"7" "resource/ocra.ttf"
-	}
+		"8" 
+		{
+			"font" "resource/Crosshairs.ttf"
+			"name" "Crosshairs"
+		}
 }

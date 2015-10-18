@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_scout_red"
-	}
+	}	
 	
 
 	

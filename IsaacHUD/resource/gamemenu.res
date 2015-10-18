@@ -1,5 +1,11 @@
 "GameMenu" [$WIN32]
 {
+	"FavServerButton"
+	{
+		"label"			"Favorite Server"
+		"Command"		"engine connect <IP>"
+		"tooltip" 		"Favorite Server"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"

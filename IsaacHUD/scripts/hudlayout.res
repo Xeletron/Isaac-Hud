@@ -1,5 +1,52 @@
 "Resource/HudLayout.res"
 {
+	
+	//////////Fog's Crosshairs//////////
+	FogCrosshairs
+	{
+		"controlName" "CExLabel"
+		"fieldName" "FogCrosshairs"
+		
+		//Change to 1 to enable, 0 to disable
+		"visible" 	 "0" 
+		
+		//Change it to the number you selected from the Crosshairs.png
+		"labelText" "n"
+
+		//The RGBA value of the crosshair.(red, green, blue, alpha)
+		"fgcolor" "255 255 255 255"
+		
+		//Play around with these values if the crosshair is not fully at the center. 
+		"xpos"      "c-20"
+        "ypos"      "c-18"
+		
+		"enabled"	 "1"       
+	    "zpos"      "2"
+        "wide"      "39"
+        "tall"      "40"
+		"font" "Crosshair"
+		"textAlignment" "center"
+	}
+	
+	///////Transparent Viewmodels///////
+	"TransparentViewmodelMask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"TransparentViewmodelMask"
+
+		//Change to 1 to enable, 0 to disable
+		"visible"	"0"
+		"enabled"	"1"
+		
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos"	"-100"
+		"wide"	"f0"
+		"tall"	"480"
+		"image"	"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"	"1"
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

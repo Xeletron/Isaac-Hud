@@ -7,12 +7,11 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 1255 0 255"		//orange
+		"NegativeColor"			"255 255 0 255"		//orange
 		"delta_lifetime"		"2"
 		"delta_item_font"		"HudFontSmallBold"
 		"delta_item_font_big"	"HudFontMediumBold"
 		"visible"				"1"
-		"visible_minmode"		"1"
 	}
 	
 	"DamageAccountValue"
@@ -29,7 +28,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor"		"255 255 0 255"
 		"font"			"HudFontSmall"
 	}	
 }
