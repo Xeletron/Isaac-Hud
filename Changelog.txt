@@ -27,3 +27,6 @@ Version 1.4 (2015.10.18)
 - Added profile pictures to freeze cam
 - Improved player destruction HUD
 - Reworked charge meters(old ones are avalible as an override)
+
+Version 1.5 (2015.10.29)
+- Compatibility with the Scream Fortress Update

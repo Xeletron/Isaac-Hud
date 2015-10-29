@@ -191,6 +191,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -261,7 +265,7 @@
         "ControlName"   "CExLabel"
         "fieldName"     "HudLabel"
         "font"          "HudFontSmallestBold"
-        "labelText"     "Isaac Hud 1.4"
+        "labelText"     "Isaac Hud 1.5"
         "textAlignment" "east"
         "xpos"          "r152"
         "ypos"          "r15"

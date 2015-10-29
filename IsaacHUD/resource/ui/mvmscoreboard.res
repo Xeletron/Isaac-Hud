@@ -187,7 +187,7 @@
 			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
-			"xpos"			"c-295"
+			"xpos"			"0"
 			"ypos"			"2"
 			"wide"			"275"
 			"tall"			"20"
@@ -198,7 +198,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"c-295"
+			"xpos"			"5"
 			"ypos"			"30"
 			"wide"			"135"
 			"tall"			"60"
@@ -210,7 +210,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c-160"
+			"xpos"			"140"
 			"ypos"			"30"
 			"wide"			"135"
 			"tall"			"60"
@@ -222,7 +222,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c-295"
+			"xpos"			"5"
 			"ypos"			"72"
 			"wide"			"135"
 			"tall"			"60"
@@ -234,7 +234,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c-160"
+			"xpos"			"140"
 			"ypos"			"72"
 			"wide"			"184"
 			"tall"			"60"

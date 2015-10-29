@@ -34,6 +34,14 @@ Overrides are included in the `overrides` folder. If you want to see more you ca
 * Open the hudlayout.res file inside the scripts folder.
 * Find the Transparent Viewmodels part
 * Enable Transparent Viewmodel by changing the value of visible to 1
+* Navigate to Team Fortress 2/tf/cfg
+* Make a text file called autoexec.cfg if you dont have one
+* Paste in the following comands:
+
+* mat_motion_blur_enabled 1
+* mat_motion_blur_strength 0
+* mat_disable_bloom 1
+* mat_hdr_level 0
 
 ##Favorite Server##
 
