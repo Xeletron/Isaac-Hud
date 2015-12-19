@@ -175,41 +175,9 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_halloween_0
+		if_operation
 		{
-			"image"		"../console/title_team_halloween2011"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011"
-		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
+			"image"		"../console/title_team_tough_break"
 		}
 	}
 					
@@ -226,6 +194,11 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
+		
+		if_operation
+		{
+			"image"		"../logo/tough_break_logo"
+		}
 	}	
 	
 	"TFCharacterImage"
@@ -265,7 +238,7 @@
         "ControlName"   "CExLabel"
         "fieldName"     "HudLabel"
         "font"          "HudFontSmallestBold"
-        "labelText"     "Isaac Hud 1.5"
+        "labelText"     "Isaac Hud 1.6"
         "textAlignment" "east"
         "xpos"          "r152"
         "ypos"          "r15"

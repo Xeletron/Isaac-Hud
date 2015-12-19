@@ -16,51 +16,26 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"15"
-		"avatar_width"		"57"	[$WIN32]
-		"avatar_width_minmode"		"2"	[$WIN32]
-		"name_width"		"95"	[$WIN32]
-		"name_width_minmode"		"95"	[$WIN32]
-		"name_width_short"	"85"	[$WIN32]		
-		"status_width"		"15"	[$WIN32]
-		"nemesis_width"		"15"	[$WIN32]
-		"class_width"		"15"	[$WIN32]
+		"avatar_width"		"57"
+		"avatar_width_minmode"		"57"	
+		"name_width"		"95"
+		"name_width_minmode""95"
+		"name_width_short"	"95"		
+		"status_width"		"15"
+		"nemesis_width"		"15"
+		"class_width"		"15"
 		"score_width"		"25"
-		"ping_width"		"23"	[$WIN32]
+		"ping_width"		"23"
 		"stats_width"		"30"
 		"killstreak_width"	"20"
+		"killstreak_image_width" "15"
 		
 		if_mvm
 		{
 			"tall"		"400"
 		}
-	}
-	
-	"BluePlayerList"
-	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"BluePlayerList"
-		"xpos"			"5"
-		"xpos_minmode"			"r260"	
-		"ypos"			"78"
-		"zpos"			"20"
-		"wide"			"290"
-		"wide_minmode"	"250"
-		"tall"			"255"	
-		"tall_minmode"	"100"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"15"
-		"fgcolor"		"blue"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	
+	}	
+
 	"BluBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -142,36 +117,9 @@
  		{
  			"visible"		"0"
  		}
-	}
+	}	
 	
-	"RedPlayerList"
-	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"RedPlayerList"
-		"xpos"			"305"
-		"xpos_minmode"			"r260"		
-		"ypos"			"78"
-		"ypos_minmode"			"190"
-		"zpos"			"20"
-		"wide"			"290"
-		"wide_minmode"	"250"
-		"tall"			"255"	[$WIN32]
-		"tall_minmode"	"100"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"15"
-		"textcolor"		"red"
-		
- 		if_mvm
- 		{
- 			"visible"		"0"
- 		}
-	}
-	
-	"RedBG"
+		"RedBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RedBG"
@@ -256,28 +204,6 @@
  			"visible"		"0"
  		}
 	}
-	"MainBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"xpos_hidef"	"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"tall"			"408"
-		}
-	}							
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -382,8 +308,8 @@
 		{
 			"visible"		"0"
 		}
-	}							
-	"RedTeamLabel"
+	}									
+"RedTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
@@ -488,7 +414,6 @@
 			"visible"		"0"
 		}
 	}	
-
 	"ServerBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -595,6 +520,79 @@
 			"visible"			"0"
 		}
 	}							
+	"BluePlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"BluePlayerList"
+		"xpos"			"5"
+		"xpos_minmode"			"r260"	
+		"ypos"			"78"
+		"zpos"			"20"
+		"wide"			"290"
+		"wide_minmode"	"250"
+		"tall"			"255"	
+		"tall_minmode"	"100"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"15"
+		"fgcolor"		"blue"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedPlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"RedPlayerList"
+		"xpos"			"305"
+		"xpos_minmode"			"r260"		
+		"ypos"			"78"
+		"ypos_minmode"			"190"
+		"zpos"			"20"
+		"wide"			"290"
+		"wide_minmode"	"250"
+		"tall"			"255"	[$WIN32]
+		"tall_minmode"	"100"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"15"
+		"textcolor"		"red"
+		
+ 		if_mvm
+ 		{
+ 			"visible"		"0"
+ 		}
+	}
+	"VerticalLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"ypos"			"70"
+		"zpos"			"2"
+		"wide"			"2"
+		"tall"			"292"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"0 0 0 153"
+		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"Spectators"
 	{
 		"ControlName"		"CExLabel"
@@ -691,6 +689,219 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 	}
+	"classmodelpanel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
+		
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"		
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"render_texture"	"0"
+		"fov"			"12"
+		"allow_rot"		"1"
+
+		"disable_speak_event"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+				
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "172"
+			"angles_z" "0"
+			"origin_x" "200"
+			"origin_y" "0"
+			"origin_z" "-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+		
+			"modelname"		""
+			
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+				"default"	"1"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"		"MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"		"BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"		"PDA"
+				"activity"	"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"		"ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
+			}						
+			"animation"
+			{
+				"name"		"ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
+			}									
+			"animation"
+			{
+				"name"		"MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
+			"animation"
+			{
+				"name"		"PRIMARY2"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY2"
+				"activity"	"ACT_MP_STAND_SECONDARY2"
+			}
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"25"
+				"angles_x"		"-17"
+				"angles_y"		"145"
+				"angles_z"		"0"
+				"origin_x"		"105"
+				"origin_y"		"4"
+				"origin_z"		"-82"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-3"
+				"origin_z"		"-97"
+			}
+			"Soldier"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"170"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"25"
+				"angles_x"		"-13"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"138"
+				"origin_y"		"-4"
+				"origin_z"		"-93"
+			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"178"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-5"
+				"origin_z"		"-96"
+			}
+			"Heavy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"200"
+				"origin_y"		"0"
+				"origin_z"		"-102"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"175"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Spy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-95"
+			}
+			"Engineer"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"168"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-82"
+			}
+		}
+	}
+	"PlayerNameBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"PlayerNameBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"TFThinLineBorder"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"PlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -712,7 +923,29 @@
 		{
 			"visible"		"1"
 		}
-	}	
+	}
+	"ServerLabelNew"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabelNew"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%server%"
+		"textAlignment"		"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"MapName"
 	{
 		"ControlName"	"CExLabel"

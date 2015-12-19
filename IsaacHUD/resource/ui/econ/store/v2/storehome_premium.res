@@ -6,8 +6,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PremiumCallout"
-		"xpos"			"c-323"
-		"ypos"			"c-45"
+		"xpos"			"c-45"
+		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
@@ -18,8 +18,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MannCoImage"
-			"wide"			"420"
-			"tall"			"220"
+			"wide"			"100"
+			"tall"			"60"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"

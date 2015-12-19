@@ -30,3 +30,7 @@ Version 1.4 (2015.10.18)
 
 Version 1.5 (2015.10.29)
 - Compatibility with the Scream Fortress Update
+
+Version 1.6 (2015.12.19)
+- Compatibility with the Tough Break Update
+- Updated the "on the bright side" dialog

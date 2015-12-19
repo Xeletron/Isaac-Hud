@@ -36,7 +36,7 @@
 
 		//Change to 1 to enable, 0 to disable
 		"visible"	"0"
-		"enabled"	"1"
+		"enabled"	"0"
 		
 		"xpos"	"0"
 		"ypos"	"0"
@@ -896,8 +896,8 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"c0"
+		"xpos"					"c-120"
+		"ypos"					"c50"
 		"wide"					"266"
 		"tall"					"120"
 	}
