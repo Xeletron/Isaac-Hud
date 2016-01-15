@@ -18,6 +18,7 @@
 		"medal_width"		"15"
 		"avatar_width"		"57"
 		"avatar_width_minmode"		"2"	
+		"spacer"			"5"
 		"name_width"		"95"
 		"name_width_minmode""95"
 		"name_width_short"	"85"		
