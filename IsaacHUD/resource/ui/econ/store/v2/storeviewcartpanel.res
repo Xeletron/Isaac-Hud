@@ -46,7 +46,7 @@
 				"wide"			"f0"
 				"tall"			"58"
 				"visible"		"1"
-				"bgcolor_override"		"30 30 30 255"
+				"bgcolor_override"		"IsaacDarkGray2"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"0"
 				"PaintBackground"	"1"
@@ -165,7 +165,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}				
 	"BackgroundFooter"
 	{
@@ -179,7 +179,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}				
 	"FooterLine"
 	{
@@ -204,7 +204,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"25 25 25 255"
+		"bgcolor_override"				"IsaacDarkGray"
 		
 		"HeaderLine"
 		{
@@ -353,7 +353,7 @@
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
 					"tall"			"80"
-					"bgcolor_override"	"30 30 30 255"	
+					"bgcolor_override"	"IsaacDarkGray2"
 					
 					"EstimatedTotalLabel"
 					{

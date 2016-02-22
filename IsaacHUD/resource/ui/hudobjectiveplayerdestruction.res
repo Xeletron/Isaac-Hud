@@ -234,7 +234,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"BlueFlagBackground"
 	{
@@ -251,7 +251,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}
 	
 	"BlueFlagLine"
@@ -310,7 +310,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}
 	
 	"RedFlagLine"
@@ -370,7 +370,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 	
 	"RedFillBackground"
@@ -388,7 +388,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 
 	"ScoreContainer"
@@ -1163,7 +1163,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"40 40 40 255"
+			"bgcolor_override"		"IsaacMediumGray"
 		}
 
 		"CountdownImage"

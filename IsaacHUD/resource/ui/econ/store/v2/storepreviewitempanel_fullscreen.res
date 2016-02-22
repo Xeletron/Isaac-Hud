@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "25 25 25 255"
+		"bgcolor_override" "IsaacDarkGray"
 		
 		"fullscreen_fade_to_black_duration"	"0.32"
 		"fullscreen_modelpanel_origin_x"	"221"

@@ -24,7 +24,7 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 	}
 	"AvatarImage"
 	{
@@ -39,7 +39,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"40 40 40 255"
+		"color_outline"	"IsaacMediumGray"
 	}
 
 	"AvatarTextLabel"

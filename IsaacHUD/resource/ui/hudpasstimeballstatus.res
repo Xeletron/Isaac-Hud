@@ -27,101 +27,73 @@
 		"enabled"			"1"
 	}
 
-	"TextBox"
+	"EventTitleLabel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"TextBox"
-		"xpos"				"c-100"
-		"ypos"				"c100"
-		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"30"
-		"visible"			"0"
-		"enabled"			"1"
-		//bgcolor_override	"97 94 85 180"
-		border TFFatLineBorder
-		RoundedCorners 255
-		
-		"TextLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TextLabel"
-			"font"			"HudFontMediumSmallBold"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"200"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"
-			"labelText"		"A TEAM STOLE THE BALL"
-			fgcolor_override	"White"
-		}
+		"ControlName"	"CExLabel"
+		"fieldName"		"EventTitleLabel"
+		"dropshadow"	"1"
+		"font"			"HudFontBiggerBold"
+		"xpos"			0
+		"ypos"			c100
+		"zpos"			"3"
+		"wide"			"f"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"A TEAM STOLE THE BALL"
+		fgcolor_override	"224 217 197 255"
 	}
 
-	"ProgressLevelBar"
+	"EventBonusLabel"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-70"
-		"ypos"			"r60"
-		"zpos"			"0"
-		"wide"			"142"
-		"tall"			"11"
+		"ControlName"	"CExLabel"
+		"fieldName"		"EventBonusLabel"
+		"font"			"HudFontMediumSmallBold"
+		"dropshadow"	"1"
+		"xpos"			0
+		"ypos"			0
+		"zpos"			"3"
+		"wide"			"f"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		"textAlignment"	"center"
 		"labelText"		""
-		// image is 1024x128, actual pixels are 872x43, scale 0.8515625
-		"image"			"../passtime/hud/passtime_ballcontrol_bar"
-		"scaleImage"	"1"
-	}
-	
-	"BaseIconBlue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BaseIconBlue"	
-		"xpos"			"c-60"
-		"ypos"			"r60"
-		"zpos"			"1"									
-		"wide"			"1"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"image"			"../hud/cart_home_blue"
-		"scaleImage"	"1"	
+		fgcolor_override	"255 235 35 200"
+		pin_to_sibling			EventTitleLabel
+		pin_corner_to_sibling	6
+		pin_to_sibling_corner	4
 	}
 
-	"BaseIconRed"
+	"EventDetailLabel"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BaseIconRed"	
-		"xpos"			"c60"
-		"ypos"			"r60"
-		"zpos"			"1"									
-		"wide"			"1"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"EventDetailLabel"
+		"font"			"HudFontMediumSmallBold"
+		"dropshadow"	"1"
+		"xpos"			0
+		"ypos"			0
+		"zpos"			"3"
+		"wide"			"f"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"image"			"../hud/cart_home_red"
-		"scaleImage"	"1"	
+		"textAlignment"	"center"
+		"labelText"		"A TEAM STOLE THE BALL"
+		fgcolor_override	"224 217 197 255"
+		pin_to_sibling			EventTitleLabel
+		pin_corner_to_sibling	4
+		pin_to_sibling_corner	6
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"c-60"
 		"ypos"			"r60"
-		"zpos"			"2"
+		"zpos"			"0"
 		"wide"			"122"
 		"tall"			"10"
 		"visible"		"1"
@@ -130,13 +102,12 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
-	
-	"Background2"
+	"TeamSideSeparator"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Background2"
+		"fieldName"		"TeamSideSeparator"
 		"xpos"			"c0"
 		"ypos"			"r60"
 		"zpos"			"3"
@@ -151,95 +122,159 @@
 		"bgcolor_override"		"White"
 	}
 
-
-	"ProgressLeftGoalIcon"
+	"ProgressLevelBar"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressLeftGoalIcon"
-		"xpos"			"-20"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
+		"fieldName"		"ProgressLevelBar"	
+		"xpos"			"c-62"
+		"ypos"			"r60"
+		"zpos"			"-1"
+		"wide"			"125"
+		"tall"			"11"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		""
+		// image is 1024x128, actual pixels are 872x43, scale 0.8515625
+		"image"			"../passtime/hud/passtime_ballcontrol_bar"
+		"scaleImage"	"1"
+	}
+
+	"BlueProgressEnd"
+	{
+		// tells the code where the end of the progress bar is since the image
+		// might be padded for npot reasons.
+		"ControlName" 	"Panel"
+		"fieldName"		"BlueProgressEnd"
+		"xpos"			"c-60"
+		"ypos"			"r56"
+		"visible"		"0"
+	}
+
+	"RedProgressEnd"
+	{
+		// tells the code where the end of the progress bar is since the image
+		// might be padded for npot reasons.
+		"ControlName"	"Panel"
+		"fieldName"		"RedProgressEnd"
+		"xpos"			"c60"
+		"ypos"			"r56"
+		"visible"		"0"
+	}	
+
+	"GoalBlue0"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalBlue0"	
+		"xpos"			"c-64"
+		"ypos"			"r61"
+		"zpos"			"1"								
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"image"			""
+		"labelText"		"0"
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
-
-		"pin_to_sibling"			"ProgressLevelBar"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling_corner"		"7"
 	}
 
-	"ProgressLeftGoalLabel"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"ProgressLeftGoalLabel"
-		"visible"				"1"
-		"enabled"				"1"
-		"zpos"					"40"
-		"xpos"					"8"
-		"ypos"					"0"
-		"wide"					"2"
-		"tall"					"10"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
-		"labelText"				" "
-		bgcolor_override		"0 0 0 0"
-		border					"TFFatLineBorderBlueBG"
-		pin_to_sibling			ProgressLeftGoalIcon
-		pin_corner_to_sibling	5
-		pin_to_sibling_corner	7
-	}
-
-	"ProgressRightGoalIcon"
+	"GoalBlue1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressRightGoalIcon"
-		"xpos"			"-20"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"1"
-		"tall"			"1"
+		"fieldName"		"GoalBlue1"	
+		"xpos"			"c-50"
+		"ypos"			"r61"
+		"zpos"			"1"									
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			""
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
+	}
 
-		"pin_to_sibling"			"ProgressLevelBar"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling_corner"		"5"
-	}	
-
-	"ProgressRightGoalLabel"
+	"GoalBlue2"
 	{
-		"ControlName"			"Label"
-		"fieldName"				"ProgressRightGoalLabel"
-		"visible"				"1"
-		"enabled"				"1"
-		"zpos"					"40"
-		"xpos"					"8"
-		"ypos"					"0"
-		"wide"					"2"
-		"tall"					"10"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
-		"labelText"				" "
-		border					"TFFatLineBorderRedBG"
-		bgcolor_override		"0 0 0 0"
-		pin_to_sibling			ProgressRightGoalIcon
-		pin_corner_to_sibling	7
-		pin_to_sibling_corner	5
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalBlue2"	
+		"xpos"			"c-37"
+		"ypos"			"r61"
+		"zpos"			"1"									
+		"wide"			"12"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_blue_icon"
+		"scaleImage"	"1"	
+	}
+
+
+	"GoalRed0"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalRed0"	
+		"xpos"			"c58"
+		"ypos"			"r61"
+		"zpos"			"1"									
+		"wide"			"12"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_red_icon"
+		"scaleImage"	"1"	
+	}
+
+	"GoalRed1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalRed1"
+		"xpos"			"c42"
+		"ypos"			"r61"
+		"zpos"			"1"									
+		"wide"			"12"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_red_icon"
+		"scaleImage"	"1"	
+	}
+
+
+	"GoalRed2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalRed2"
+		"xpos"			"c29"
+		"ypos"			"r61"
+		"zpos"			"1"									
+		"wide"			"12"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../passtime/hud/passtime_goal_red_icon"
+		"scaleImage"	"1"	
 	}
 
 	"ProgressBallIcon"
@@ -249,8 +284,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -295,7 +330,7 @@
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 		//border 					TFThinLineBorder
 		pin_to_sibling			ProgressLevelBar
 		pin_corner_to_sibling	4

@@ -46,7 +46,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}
 		"RedScoreBackground"
 		{
@@ -84,7 +84,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}
 		"BlueTeamLabel"
 		{
@@ -170,7 +170,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../vgui/corner_3px_4"
-			"drawcolor"					"40 40 40 255"
+			"drawcolor"					"IsaacMediumGray"
 			"scaleImage"		"0"
 	
 			"src_corner_height"	"2"				// pixels inside the image
@@ -231,7 +231,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"WinningTeamLabel"
 	{	
@@ -324,7 +324,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"IsaacDarkGray"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"

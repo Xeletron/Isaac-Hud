@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
+		"infocus_bgcolor_override" "IsaacDarkGray"
+		"outoffocus_bgcolor_override" "IsaacDarkGray"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -84,7 +84,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
+					"fgcolor"		"White"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -106,11 +106,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "117 107 94 255"
+			"defaultFgColor_override" "70 70 70 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "100 100 100 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "178 82 22 255"
+			"depressedFgColor_override" "White"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -156,7 +156,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 187 161 255"
+		"fgcolor_override" "White"
 	}
 	
 	"selectedrecipecontainer"
@@ -187,7 +187,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"White"
 			"wrap"			"1"
 		}
 		
@@ -227,7 +227,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"White"
 		}
 		"OutputLabel"
 		{
@@ -245,7 +245,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"White"
 		}
 		
 		"CraftButton"
@@ -290,7 +290,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"178 82 22 255"
+			"fgcolor"		"White"
 		}
 		"UpgradeButton"
 		{

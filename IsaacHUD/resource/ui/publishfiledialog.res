@@ -62,7 +62,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 	}
 
 	"Title"	
@@ -479,7 +479,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"25 25 25 255"
+			"disabledfgcolor2_override"	"IsaacDarkGray"
 		}
 		"ClassCheckBox2"
 		{

@@ -31,7 +31,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}	
 	"HudHealthTeamLine"
 	{
@@ -83,7 +83,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}	
 	"HudHealthBackground3"
 	{
@@ -100,7 +100,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}	
 	
 	"PlayerStatusHealthBonusImage"

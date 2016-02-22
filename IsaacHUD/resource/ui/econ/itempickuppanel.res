@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
+		"infocus_bgcolor_override" "IsaacDarkGray"
+		"outoffocus_bgcolor_override" "IsaacDarkGray"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -30,7 +30,7 @@
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
-			"bgcolor_override"		"40 40 40 255"
+			"bgcolor_override"		"IsaacMediumGray"
 			"paintbackground"	"1"
 			
 			"model_xpos"	"0"

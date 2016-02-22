@@ -122,7 +122,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"IsaacDarkGray"
 		"scaleImage"	"1"
 	}
 	
@@ -137,7 +137,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"IsaacDarkGray"
 		"scaleImage"	"1"
 	}
 	"Gray_Top"
@@ -151,7 +151,7 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"IsaacDarkGray"
 		"scaleImage"	"1"
 	}
 	"Gray_Right"
@@ -165,7 +165,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"IsaacDarkGray"
 		"scaleImage"	"1"
 	}
 	"Gray_Bot"
@@ -179,7 +179,7 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"25 25 25 255"
+		"fillcolor"		"IsaacDarkGray"
 		"scaleImage"	"1"
 	}
 }

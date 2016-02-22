@@ -46,7 +46,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}
 	
 	"BackgroundFooter"
@@ -54,17 +54,17 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"430"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"	
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}					
 	"FooterLine"
 	{

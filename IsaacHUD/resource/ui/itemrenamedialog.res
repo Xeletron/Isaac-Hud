@@ -320,7 +320,7 @@
 		"unicode"			"0"
 		"wrap"				"0"
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"paintbackgroundtype" "0"
 		"labelText"			""
 		"font"				"HudFontSmall"

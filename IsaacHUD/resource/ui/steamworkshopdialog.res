@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 	}
 
 	"Container"
@@ -107,7 +107,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 		}
 
 		"NoItemsContainer"
@@ -126,7 +126,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 
 			"TitleLabel"
 			{
@@ -207,7 +207,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 
 			"TitleLabel"
 			{

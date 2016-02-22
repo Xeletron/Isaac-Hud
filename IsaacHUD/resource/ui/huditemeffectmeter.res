@@ -47,7 +47,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	
 	"ItemEffectMeter"
@@ -68,7 +68,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"70 70 70 180"
-		"fgcolor_override"		"25 25 25 255"
+		"fgcolor_override"		"IsaacDarkGray"
 			
 	}
 	
@@ -110,6 +110,6 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"font"					"HudFontSmallestBold"
-		"fgcolor_override"		"25 25 25 255"
+		"fgcolor_override"		"IsaacDarkGray"
 	}					
 }

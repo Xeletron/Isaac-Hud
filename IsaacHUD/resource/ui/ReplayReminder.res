@@ -4,13 +4,12 @@
 	{
 		"ControlName"	"CReplayReminderPanel"
 		"fieldName"		"ReplayReminder"
-		"xpos"			"-170"
-		"ypos"			"5"
-		"zpos"			"2"
+		"xpos"			"c-83"
+		"ypos"			"-50"
+		"zpos"			"1"
 		"wide"			"166"
 		"tall"			"40"
 		"visible"		"0"
-		"alpha"			"0"	
 		
 		"BG"
 		{
@@ -29,6 +28,7 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"20 20 20 255"
 		}
+		
 		"TeamLine"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -53,7 +53,7 @@
 		}
 		"Icon"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Icon"
 			"xpos"			"3"
 			"ypos"			"9"
@@ -62,12 +62,12 @@
 			"tall"			"28"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/ico_replay"
-			"scaleImage"		"1"	
+			"image"			"replay/replayicon"
+			"scaleImage"	"1"	
 		}		
 		"Label"
 		{	
-			"ControlName"		"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"Label"
 			"font"			"HudFontSmallest"
 			"xpos"			"40"

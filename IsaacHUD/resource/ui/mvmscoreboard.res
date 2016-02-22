@@ -5,9 +5,9 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"0"
-		"ypos"				"10"
+		"ypos"				"8"
 		"zpos"				"0"
-		"wide"				"f0"
+		"wide"				"600"
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
@@ -22,21 +22,19 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"%popfile%"
 		"textAlignment"	"Center"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"74"
 		"textAlignment"		"center"
-		"wide"			"f0"
+		"wide"			"600"
 		"tall"			"20"
 		"fgcolor"		"White"
 	}
-	
-
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"c-270"
+		"xpos"			"25"
 		"ypos"			"74"
 		"wide"			"550"
 		"tall"			"20"
@@ -75,19 +73,19 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"c-270"
-		"ypos"			"90"
-		"zpos"			"-1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/tournament_panel_brown"
 		
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"	"0"				// pixels inside the image
+		"src_corner_width"	"0"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
@@ -97,7 +95,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerListBG"
-		"xpos"			"c-275"
+		"xpos"			"25"
 		"ypos"			"90"
 		"zpos"			"-1"
 		"wide"			"550"
@@ -115,7 +113,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-270"
+		"xpos"			"35"
 		"ypos"			"94"
 		"wide"			"530"
 		"tall"			"150"
@@ -123,8 +121,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"autoresize"	"0"
-		"linespacing"	"20"
+		"autoresize"	"3"
+		"linespacing"	"22"
 		"textcolor"		"White"
 	}
 	
@@ -132,11 +130,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-275"
+		"xpos"			"25"
 		"ypos"			"245"
-		"zpos"			"0"
-		"wide"			"275"
-		"tall"			"132"
+		"wide"			"400"
+		"tall"			"205"
 		"visible"		"1"
 		
 		"CreditStatsBackground"
@@ -145,22 +142,21 @@
 			"fieldName"		"CreditStatsBackground"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"530"
-			"tall"			"135"
+			"zpos"			"0"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
+			"src_corner_height"	"0"				// pixels inside the image
+			"src_corner_width"	"0"
 		
 			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		"CreditStatsBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -246,7 +242,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmall"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"

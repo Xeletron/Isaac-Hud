@@ -40,7 +40,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}	
 	
 	"Background2"
@@ -58,7 +58,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}	
 	"TargetIDBG_Spec_Blue"
 	{
@@ -235,7 +235,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"40 40 40 255"
+			"bgcolor_override"		"IsaacMediumGray"
 		}
 		
 		"MoveableIcon"

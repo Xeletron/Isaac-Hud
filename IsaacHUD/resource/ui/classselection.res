@@ -75,7 +75,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"TeamLine"
 	{
@@ -177,7 +177,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 
 	"LoadouBG"
@@ -192,7 +192,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"random"
 	{
@@ -1387,7 +1387,7 @@
 		"font"			"HudFontSmallBold"
 		
 		"defaultFgColor_override" 		"235 235 235 255"
-		"defaultbgcolor_override"		"40 40 40 255"
+		"defaultbgcolor_override"		"IsaacMediumGray"
 		"armedbgcolor_override"			"90 90 90 255"
 		"armedFgColor_override" 		"255 255 255 255"
 		"depressedbgcolor_override"		"50 50 50 255"
@@ -1501,7 +1501,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"countImage0"
 	{
@@ -1936,7 +1936,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}	
 
 	"TFPlayerModel"

@@ -13,7 +13,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
@@ -121,20 +121,20 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"25 25 25 255"
-		"bgcolor_override"	"White"
-		"disabledFgColor_override" "25 25 25 255"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"IsaacMediumGray"
+		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "100 100 100 255"
-		"selectionColor_override" "White"
-		"selectionTextColor_override" "Black"
-		"defaultSelectionBG2Color_override" "White"
-		
+		"selectionColor_override" "IsaacMediumGray"
+		"selectionTextColor_override" "White"
+		"defaultSelectionBG2Color_override" "IsaacMediumGray"
+
 		"Button"
 		{
-			"defaultFgColor_override"	"25 25 25 255"
-			"defaultBgColor_override"	"White"
-			"armedFgColor_override"	"40 40 40 255"
-			"armedBgColor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"IsaacMediumGray"
+			"armedFgColor_override"	"White"
+			"armedBgColor_override"	"IsaacMediumGray"
 			"paintbackgroundtype"	"0"
 		}
 	}
@@ -151,7 +151,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"border"		"NoBorder"
 
 		"Data_TextRichText"

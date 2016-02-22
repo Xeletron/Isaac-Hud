@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"30 30 30 255"
+		"bgcolor_override"	"IsaacDarkGray2"
 	}
 
 

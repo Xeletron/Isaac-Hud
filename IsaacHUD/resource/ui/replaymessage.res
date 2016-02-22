@@ -1,0 +1,77 @@
+"Resource/UI/replaymessage.res"
+{
+	"ReplayMessagePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ReplayMessagePanel"
+		"zpos"			"1000"
+		"tall"			"25"	[$WIN32]
+		"wide"			"200"
+		"autoResize"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"Background"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Background"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"198"
+		"tall"			"84"
+		"visible"		"1"
+		"enabled"		"1"	
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"		"IsaacDarkGray"
+	}
+	
+	"ReplayLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ReplayLabel"
+		"font"			"HudFontMediumBold"
+		"xpos"			"35"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"180"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Replay_ReplayMsgTitle"
+		"textAlignment"	"north-west"
+		"fgcolor"		"White"
+	}
+	"MessageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MessageLabel"
+		"font"			"ItemFontAttribLarge"
+		"zpos"			"0"
+		"wide"			"180"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"north"
+		"fgcolor"		"White"
+		"centerwrap"	"0"
+		"wrap"			"1"
+	}
+	"Icon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Icon"
+		"xpos"			"8"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/replayicon"
+		"scaleImage"	"1"	
+	}		
+}

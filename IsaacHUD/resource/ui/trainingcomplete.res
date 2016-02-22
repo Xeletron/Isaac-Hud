@@ -111,7 +111,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"25 25 25 255"
+			"fillcolor"		"IsaacDarkGray"
 			"PaintBackgroundType"	"0"
 		}	
 
@@ -193,7 +193,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"PaintBackground"	"1"
 		}
 		"ResultsText"

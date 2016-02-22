@@ -28,7 +28,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"fgcolor_override"	"40 40 40 255"
+			"fgcolor_override"	"IsaacMediumGray"
 		}
 
 		"DescLabel"

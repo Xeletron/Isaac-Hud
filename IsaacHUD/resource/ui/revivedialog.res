@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"paintborder"		"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 
 		"TitleLabel"
 		{

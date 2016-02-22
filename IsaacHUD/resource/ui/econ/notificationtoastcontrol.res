@@ -49,7 +49,7 @@
         "image_drawcolor"   "255 255 255 255"
         "image_armedcolor"  "255 255 255 255"
         "defaultBgcolor_override"       "35 35 35 255"
-        "armedBgColor_override" "25 25 25 255"
+        "armedBgColor_override" "IsaacDarkGray"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -96,7 +96,7 @@
         "image_drawcolor"   "255 255 255 255"
         "image_armedcolor"  "255 255 255 255"
         "defaultBgcolor_override"       "35 35 35 255"
-        "armedBgColor_override" "25 25 25 255"
+        "armedBgColor_override" "IsaacDarkGray"
 		
 		"SubImage"
 		{
@@ -144,7 +144,7 @@
         "image_drawcolor"   "255 255 255 255"
         "image_armedcolor"  "255 255 255 255"
         "defaultBgcolor_override"       "35 35 35 255"
-        "armedBgColor_override" "25 25 25 255"
+        "armedBgColor_override" "IsaacDarkGray"
 		
 		"SubImage"
 		{
@@ -192,7 +192,7 @@
         "image_drawcolor"   "255 255 255 255"
         "image_armedcolor"  "255 255 255 255"
         "defaultBgcolor_override"       "35 35 35 255"
-        "armedBgColor_override" "25 25 25 255"
+        "armedBgColor_override" "IsaacDarkGray"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

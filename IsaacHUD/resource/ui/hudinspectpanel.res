@@ -10,7 +10,7 @@
 		"wide"			"190"
 		"tall"			"50"
 		"visible"		"0"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		

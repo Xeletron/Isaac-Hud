@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"1"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 		"border"			"NoBorder"
 		
 		"itempanel_xpos"	"0"
@@ -26,7 +26,7 @@
 		{
 			"wide"			"180"
 			"tall"			"40"
-			"bgcolor_override"		"40 40 40 255"
+			"bgcolor_override"		"IsaacMediumGray"
 			"PaintBackgroundType"	"0"
 			"PaintBackground"	"0"
 			"paintborder"	"0"
@@ -147,8 +147,8 @@
 		"wide"			"205"
 		"tall"			"130"
 		"PaintBackgroundType"	"0"
-		"fgcolor_override"	"40 40 40 255"
-		"bgcolor_override"	"30 30 30 255"
+		"fgcolor_override"	"IsaacMediumGray"
+		"bgcolor_override"	"IsaacDarkGray2"
 		"autohide_buttons" "1"
 	}
 		

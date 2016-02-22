@@ -34,3 +34,17 @@ Version 1.5 (2015.10.29)
 Version 1.6 (2015.12.19)
 - Compatibility with the Tough Break Update
 - Updated the "on the bright side" dialog
+
+Version 1.7 (2016.02.22)
+- Fixed scoreboard in MvM
+- Fixed description box cutting in the loadout panel
+- Fixed Passtime hud
+- Added Replay Reminder
+- Replaced Forum button with DemoUI button in the mainmenu
+- Updated mainmenu for competitive
+- Updated the Mann Co. store
+- Updated the loadout screen
+- Updated item selection panel
+- Updated crafting panel
+- Updated trading panel
+

@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 	}
 	
 	"SearchTextEntry"
@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 		"Font"			"HudFontSmallest"
 	}
 

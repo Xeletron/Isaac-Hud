@@ -89,7 +89,7 @@
 				"autoResize"	"0"
 				"PaintBackgroundType"	"0"
 				"paintbackground"		"1"
-				"bgcolor_override"		"25 25 25 255"
+				"bgcolor_override"		"IsaacDarkGray"
 				
 				if_mvm
 				{
@@ -198,6 +198,12 @@
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 				
+				if_readymode
+				{
+					"xpos"				"26"
+					"ypos"				"4"
+				}
+				
 				
 			}
 			
@@ -253,7 +259,7 @@
 				"autoResize"	"0"
 				"PaintBackgroundType"	"0"
 				"paintbackground"		"1"
-				"bgcolor_override"		"45 45 45 255"
+				"bgcolor_override"		"IsaacMediumGray"
 				
 				if_mvm
 				{
@@ -575,7 +581,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		
 		if_mvm
 		{
@@ -682,7 +688,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	
 		if_mvm
 		{
@@ -785,7 +791,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		
 		if_mvm
 		{
@@ -799,7 +805,11 @@
 
 		if_readymode
 		{
-			"visible"		"0"
+			"xpos"			"c-100"
+			"wide"			"220"
+			"ypos"			"3"
+			"tall"			"12"
+			"visible"		"1"
 		}
 	}
 	"TournamentConditionBlue"
@@ -829,7 +839,11 @@
 		}
 		if_readymode
 		{
-			"visible"		"0"
+			"xpos"			"c-100"
+			"wide"			"2"
+			"ypos"			"3"
+			"tall"			"12"
+			"visible"		"1"
 		}
 	}
 	
@@ -860,7 +874,11 @@
 		}
 		if_readymode
 		{
-			"visible"		"0"
+			"xpos"			"c120"
+			"wide"			"2"
+			"ypos"			"3"
+			"tall"			"12"
+			"visible"		"1"
 		}
 	}
 	"TournamentConditionLabel"
@@ -881,11 +899,6 @@
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 
 		if_competitive
 		{
@@ -897,10 +910,15 @@
 
 		if_readymode
 		{
-			"xpos"			"285"
-			"ypos"			"26"
+			"xpos"			"c-115"
+			"ypos"			"5"
 			"visible"		"1"
+			"textAlignment"		"center"
 			"font"			"TFFontMedium"
+		}
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 
@@ -984,9 +1002,9 @@
 		if_readymode
 		{
 			"font"			"HudFontSmallishBold"
-			"xpos"			"225"
-			"ypos"			"110"
-			"wide"			"190"
+			"xpos"			"c-95"
+			"ypos"			"20"
+			"wide"			"220"
 			"tall"			"12"
 			"zpos"			"3"
 		}
@@ -1073,7 +1091,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		
 		if_competitive
 		{

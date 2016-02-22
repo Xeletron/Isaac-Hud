@@ -52,7 +52,7 @@
 				"autoResize"	"0"
 				"PaintBackgroundType"	"0"
 				"paintbackground"		"1"
-				"bgcolor_override"		"25 25 25 255"
+				"bgcolor_override"		"IsaacDarkGray"
 						
 						if_mvm
 				{
@@ -410,7 +410,7 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		

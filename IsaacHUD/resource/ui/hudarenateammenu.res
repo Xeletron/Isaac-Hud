@@ -89,7 +89,7 @@
             "paintbackground"   "1"
             "border_default"            	"NoBorder"
             "border_armed"              	"NoBorder"
-            "defaultBgcolor_override"       "25 25 25 255"
+            "defaultBgcolor_override"       "IsaacDarkGray"
             "armedBgColor_override" 		"35 35 35 255"  
 
 			"defaultFgcolor_override"		"HUDBlueTeam"
@@ -188,7 +188,7 @@
             "paintbackground"   "1"
             "border_default"            	"NoBorder"
             "border_armed"              	"NoBorder"
-            "defaultBgcolor_override"       "25 25 25 255"
+            "defaultBgcolor_override"       "IsaacDarkGray"
             "armedBgColor_override" 		"35 35 35 255"  
 
 			"defaultFgcolor_override"		"60 60 60 255"

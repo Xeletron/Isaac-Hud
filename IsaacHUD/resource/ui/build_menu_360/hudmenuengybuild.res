@@ -15,7 +15,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"HeadLine1"
 	{
@@ -376,7 +376,7 @@
 		"scaleImage"	"1"	
 		"pinCorner"		"0"
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"45 45 45 255"
+		"iconColor"		"IsaacMediumGray"
 		
 
 	}

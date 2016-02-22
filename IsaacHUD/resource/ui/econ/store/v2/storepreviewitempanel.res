@@ -112,7 +112,7 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"border"		"NoBorder"
-		"bgcolor_override" "25 25 25 255"
+		"bgcolor_override" "IsaacDarkGray"
 		"PaintBorder"	"0"
 		
 		// Background for the player model & item preview panels
@@ -130,7 +130,7 @@
 			"paintborder"	"0"
 			"paintbackground"	"1"
 			"border"		"NoBorder"
-			"bgcolor_override" "40 40 40 255"
+			"bgcolor_override" "IsaacMediumGray"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -148,7 +148,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "30 30 30 255"
+			"bgcolor_override" "IsaacDarkGray2"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -681,7 +681,7 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
@@ -698,7 +698,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override" "40 40 40 255"
+			"bgcolor_override" "IsaacMediumGray"
 		}
 		
 		"itempanel"
@@ -952,7 +952,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
@@ -968,7 +968,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
@@ -984,7 +984,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
@@ -1000,7 +1000,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
@@ -1016,7 +1016,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
@@ -1032,7 +1032,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "25 25 25 255"
+		"panel_bgcolor" "IsaacDarkGray"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"

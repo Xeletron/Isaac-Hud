@@ -10,7 +10,7 @@
 		"zpos"					"999"
 		"wide"					"550"
 		"tall"					"300"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"NoBorder"

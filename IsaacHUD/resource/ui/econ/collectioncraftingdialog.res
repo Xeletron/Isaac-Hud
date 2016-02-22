@@ -217,7 +217,7 @@
 		"tall"					"f0"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}
 
 	"BG"
@@ -244,7 +244,7 @@
 			"zpos"					"1"
 			"wide"					"f0"
 			"tall"					"p0.89"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 			"paintborder"			"1"
 			"paintbackgroundtype"	"1"
 			"proportionaltoparent"	"1"

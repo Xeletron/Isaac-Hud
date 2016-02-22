@@ -15,15 +15,15 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
+		"infocus_bgcolor_override" "IsaacDarkGray"
+		"outoffocus_bgcolor_override" "IsaacDarkGray"
 		
-		"max_cart_model_panels"	"14"
+		"max_cart_model_panels"	"12"
 		
-		"item_ypos"		"70"
+		"item_ypos"		"50"
 		
-		"item_panels"			"15"
+		"item_panels"			"20"
 		"item_columns"			"5"
 		"item_offcenter_x"		"-282"
 		"item_xdelta"			"4"
@@ -33,14 +33,14 @@
 		"item_controls_yoffset"	"2"
 
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"25 25 25 255"
+		"item_backdrop_color"				"IsaacDarkGray"
 		"item_backdrop_left_margin"			"0"
 		"item_backdrop_right_margin"		"0"
 		"item_backdrop_top_margin"			"0"
 		"item_backdrop_bottom_margin"		"0"
 		"item_backdrop_paintbackgroundtype"	"0"
 		
-		"item_panel_bgcolor"			"30 30 30 255"
+		"item_panel_bgcolor"			"IsaacDarkGray2"
 		"item_panel_bgcolor_mouseover"	"50 50 50 255"
 		"item_panel_bgcolor_selected"	"70 70 70 255"
 		"item_panel_border"		"StoreItemBorder"
@@ -113,18 +113,18 @@
 			"ypos"			"270"
 			"zpos"			"13"
 			"wide"			"32"
-			"tall"			"25"
+			"tall"			"20"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"			
-			"border"		"EconItemBorder"
+			"border"		"NoBorder"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
-			"model_tall"	"21"
+			"model_tall"	"18"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -166,7 +166,7 @@
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c176"
-		"ypos"			"30"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
@@ -182,7 +182,7 @@
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c176"
-		"ypos"		"45"
+		"ypos"		"28"
 		"zpos"		"2"
 		"wide"		"111"
 		"tall"		"19"
@@ -193,31 +193,13 @@
 		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"		"1"
-		"border_override"		"NoBoder"
+		"border_override"		"NoBorder"
 		"unicode"		"1"
-		"fgcolor_override"	"25 25 25 255"
-		"bgcolor_override"	"White"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"IsaacMediumGray"
 		"paintbackgroundtype" "0"
 		"font"		"HudFontSmall"
 	}
-	
-    "NameFilterTextEntryBackground"
-    {
-        "ControlName"   "EditablePanel"
-        "fieldName"     "NameFilterTextEntryBackground"
-        "xpos"          "c176"
-        "ypos"          "45"
-        "zpos"          "1"
-        "wide"          "111"
-        "tall"          "19"
-        "visible"       "1"
-        "enabled"       "1" 
-        "pinCorner"     "0"
-        "autoResize"    "0"
-        "PaintBackgroundType"   "0"
-        "paintbackground"       "1"
-        "bgcolor_override"      "White"
-    }
 	
 	"SubcategoryFiltersLabel"
 	{
@@ -227,7 +209,7 @@
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-53"
-		"ypos"			"30"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"20"
@@ -244,7 +226,7 @@
 		"fieldName"			"SubcategoryFilterComboBox"
 		"Font"				"HudFontSmallestBold"
 		"xpos"				"c-53"
-		"ypos"				"45"
+		"ypos"				"28"
 		"zpos"				"1"
 		"wide"				"111"
 		"tall"				"19"
@@ -261,20 +243,20 @@
 		"border_override"	"NoBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"25 25 25 255"
-		"bgcolor_override"	"White"
-		"disabledFgColor_override" "25 25 25 255"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"IsaacMediumGray"
+		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "100 100 100 255"
-		"selectionColor_override" "White"
-		"selectionTextColor_override" "25 25 25 255"
-		"defaultSelectionBG2Color_override" "White"
-		
+		"selectionColor_override" "IsaacMediumGray"
+		"selectionTextColor_override" "White"
+		"defaultSelectionBG2Color_override" "IsaacMediumGray"
+
 		"Button"
 		{
-			"defaultFgColor_override"	"25 25 25 255"
-			"defaultBgColor_override"	"White"
-			"armedFgColor_override"	"40 40 40 255"
-			"armedBgColor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"IsaacMediumGray"
+			"armedFgColor_override"	"White"
+			"armedBgColor_override"	"IsaacMediumGray"
 			"paintbackgroundtype"	"0"
 		}
 	}
@@ -287,7 +269,7 @@
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
 		"xpos"			"c61"
-		"ypos"			"30"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"20"
@@ -304,7 +286,7 @@
 		"fieldName"			"SortFilterComboBox"
 		"Font"				"HudFontSmallestBold"
 		"xpos"				"c61"
-		"ypos"				"45"
+		"ypos"				"28"
 		"zpos"				"1"
 		"wide"				"111"
 		"tall"				"19"
@@ -321,20 +303,20 @@
 		"border_override"	"NoBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"25 25 25 255"
-		"bgcolor_override"	"White"
-		"disabledFgColor_override" "25 25 25 255"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"IsaacMediumGray"
+		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "100 100 100 255"
-		"selectionColor_override" "White"
-		"selectionTextColor_override" "25 25 25 255"
-		"defaultSelectionBG2Color_override" "White"
-		
+		"selectionColor_override" "IsaacMediumGray"
+		"selectionTextColor_override" "White"
+		"defaultSelectionBG2Color_override" "IsaacMediumGray"
+
 		"Button"
 		{
-			"defaultFgColor_override"	"25 25 25 255"
-			"defaultBgColor_override"	"White"
-			"armedFgColor_override"	"40 40 40 255"
-			"armedBgColor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"IsaacMediumGray"
+			"armedFgColor_override"	"White"
+			"armedBgColor_override"	"IsaacMediumGray"
 			"paintbackgroundtype"	"0"
 		}
 	}
@@ -349,7 +331,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"PaintBackground"	"1"
@@ -395,12 +377,12 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 		"PaintBackgroundType"	"0"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"NoBoder"
+		"border"		"NoBorder"
 		"fgcolor"		"White"
 	}
 
@@ -409,7 +391,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c-282"
-		"ypos"			"269"
+		"ypos"			"313"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
@@ -436,7 +418,7 @@
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-262"
-		"ypos"			"269"
+		"ypos"			"313"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"20"
@@ -452,7 +434,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c-220"
-		"ypos"			"269"
+		"ypos"			"313"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
@@ -500,7 +482,7 @@
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-282"
-		"ypos"			"30"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"20"
@@ -516,7 +498,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ClassFilterNavPanel"
 		"xpos"				"c-282"
-		"ypos"				"45"
+		"ypos"				"28"
 		"zpos"				"1"
 		"wide"				"230"
 		"tall"				"19"
@@ -550,9 +532,9 @@
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
 			
-			"selectedBgColor_override" "White"
-			"armedBgColor_override" "210 210 210 255"
-			"defaultBgColor_override" "180 180 180 255"
+			"selectedBgColor_override" "50 50 50 255"
+			"armedBgColor_override" "50 50 50 255"
+			"defaultBgColor_override" "IsaacMediumGray"
 			"depressedBgColor_override" "White"
 			
 		    "border_default"            "NoBorder"
@@ -565,9 +547,9 @@
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
-			"image_drawcolor"		"0 0 0 255"
-			"image_armedcolor"		"100 100 100 255"
-			"image_selectedcolor"	"255 255 255 255"
+			"image_drawcolor"		"White"
+			"image_armedcolor"		"White"
+			"image_selectedcolor"	"White"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -592,131 +574,131 @@
 			"all"
 			{
 				"userdata"			"0"
-				"image_default"		"class_icons/filter_all_motd"
-				"image_armed"		"class_icons/filter_all_motd"
-				"image_selected"	"class_icons/filter_all_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/all"
+				"image_armed"		"replay/thumbnails/store_class_icons/all"
+				"image_selected"	"replay/thumbnails/store_class_icons/all"
 				"tooltiptext"		"#TF_Items_All"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_all_motd"
+					"image"			"replay/thumbnails/store_class_icons/all"
 				}				
 			}
 			"scout"
 			{
 				"userdata"			"1"
-				"image_default"		"class_icons/filter_scout_motd"
-				"image_armed"		"class_icons/filter_scout_motd"
-				"image_selected"	"class_icons/filter_scout_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/scout"
+				"image_armed"		"replay/thumbnails/store_class_icons/scout"
+				"image_selected"	"replay/thumbnails/store_class_icons/scout"
 				"tooltiptext"		"#TF_Items_Scout"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_scout_motd"
+					"image"			"replay/thumbnails/store_class_icons/scout"
 				}				
 			}
 			"soldier"
 			{
 				"userdata"			"3"
-				"image_default"		"class_icons/filter_soldier_motd"
-				"image_armed"		"class_icons/filter_soldier_motd"
-				"image_selected"	"class_icons/filter_soldier_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/soldier"
+				"image_armed"		"replay/thumbnails/store_class_icons/soldier"
+				"image_selected"	"replay/thumbnails/store_class_icons/soldier"
 				"tooltiptext"		"#TF_Items_Soldier"
 
 				"SubImage"
 				{
-					"image"			"class_icons/filter_soldier_motd"
+					"image"			"replay/thumbnails/store_class_icons/soldier"
 				}				
 			}
 			"pyro"
 			{
 				"userdata"			"7"
-				"image_default"		"class_icons/filter_pyro_motd"
-				"image_armed"		"class_icons/filter_pyro_motd"
-				"image_selected"	"class_icons/filter_pyro_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/pyro"
+				"image_armed"		"replay/thumbnails/store_class_icons/pyro"
+				"image_selected"	"replay/thumbnails/store_class_icons/pyro"
 				"tooltiptext"		"#TF_Items_Pyro"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_pyro_motd"
+					"image"			"replay/thumbnails/store_class_icons/pyro"
 				}				
 			}
 			"demo"
 			{
 				"userdata"			"4"
-				"image_default"		"class_icons/filter_demo_motd"
-				"image_armed"		"class_icons/filter_demo_motd"
-				"image_selected"	"class_icons/filter_demo_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/demo"
+				"image_armed"		"replay/thumbnails/store_class_icons/demo"
+				"image_selected"	"replay/thumbnails/store_class_icons/demo"
 				"tooltiptext"		"#TF_Items_Demoman"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_demo_motd"
+					"image"			"replay/thumbnails/store_class_icons/demo"
 				}				
 			}	
 			"heavy"
 			{
 				"userdata"			"6"
-				"image_default"		"class_icons/filter_heavy_motd"
-				"image_armed"		"class_icons/filter_heavy_motd"
-				"image_selected"	"class_icons/filter_heavy_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/heavy"
+				"image_armed"		"replay/thumbnails/store_class_icons/heavy"
+				"image_selected"	"replay/thumbnails/store_class_icons/heavy"
 				"tooltiptext"		"#TF_Items_Heavy"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_heavy_motd"
+					"image"			"replay/thumbnails/store_class_icons/heavy"
 				}				
 			}
 			"engineer"
 			{
 				"userdata"			"9"
-				"image_default"		"class_icons/filter_engineer_motd"
-				"image_armed"		"class_icons/filter_engineer_motd"
-				"image_selected"	"class_icons/filter_engineer_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/engineer"
+				"image_armed"		"replay/thumbnails/store_class_icons/engineer"
+				"image_selected"	"replay/thumbnails/store_class_icons/engineer"
 				"tooltiptext"		"#TF_Items_Engineer"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_engineer_motd"
+					"image"			"replay/thumbnails/store_class_icons/engineer"
 				}				
 			}
 			"medic"
 			{
 				"userdata"			"5"
-				"image_default"		"class_icons/filter_medic_motd"
-				"image_armed"		"class_icons/filter_medic_motd"
-				"image_selected"	"class_icons/filter_medic_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/medic"
+				"image_armed"		"replay/thumbnails/store_class_icons/medic"
+				"image_selected"	"replay/thumbnails/store_class_icons/medic"
 				"tooltiptext"		"#TF_Items_Medic"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_medic_motd"
+					"image"			"replay/thumbnails/store_class_icons/medic"
 				}				
 			}
 			"sniper"
 			{
 				"userdata"			"2"
-				"image_default"		"class_icons/filter_sniper_motd"
-				"image_armed"		"class_icons/filter_sniper_motd"
-				"image_selected"	"class_icons/filter_sniper_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/sniper"
+				"image_armed"		"replay/thumbnails/store_class_icons/sniper"
+				"image_selected"	"replay/thumbnails/store_class_icons/sniper"
 				"tooltiptext"		"#TF_Items_Sniper"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_sniper_motd"
+					"image"			"replay/thumbnails/store_class_icons/sniper"
 				}				
 			}
 			"spy"
 			{
 				"userdata"			"8"
-				"image_default"		"class_icons/filter_spy_motd"
-				"image_armed"		"class_icons/filter_spy_motd"
-				"image_selected"	"class_icons/filter_spy_motd"
+				"image_default"		"replay/thumbnails/store_class_icons/spy"
+				"image_armed"		"replay/thumbnails/store_class_icons/spy"
+				"image_selected"	"replay/thumbnails/store_class_icons/spy"
 				"tooltiptext"		"#TF_Items_Spy"
 				
 				"SubImage"
 				{
-					"image"			"class_icons/filter_spy_motd"
+					"image"			"replay/thumbnails/store_class_icons/spy"
 				}				
 			}	
 		}
@@ -728,11 +710,11 @@
 		"fieldName"		"BackpackSpaceLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
-		"textAlignment"	"west"
-		"xpos"			"c-282"
-		"ypos"			"318"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"365"
 		"zpos"			"0"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -747,11 +729,11 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c-282"
-		"ypos"			"294"
+		"xpos"			"c-197"
+		"ypos"			"313"
 		"zpos"			"12"
 		"wide"			"56"
-		"tall"			"24"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
@@ -767,8 +749,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-279"
-		"ypos"			"296"
+		"xpos"			"c-195"
+		"ypos"			"313"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
@@ -830,7 +812,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"

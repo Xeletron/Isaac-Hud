@@ -33,7 +33,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"TimePanelProgressBar"
 	{
@@ -84,7 +84,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 	"OvertimeLabel"
 	{
@@ -119,7 +119,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 	"SuddenDeathLabel"
 	{
@@ -154,7 +154,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}	
 	"SetupLabel"
 	{
@@ -189,7 +189,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -225,6 +225,6 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 }

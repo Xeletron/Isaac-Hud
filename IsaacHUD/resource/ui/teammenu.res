@@ -114,7 +114,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	
 	"BluButton"
@@ -229,7 +229,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	"RedButton"
 	{
@@ -344,7 +344,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	
 	"MiscLeftLine"
@@ -418,7 +418,7 @@
             "border_armed"              "NoBorder"
             "image_drawcolor"   "255 255 255 255"
             "image_armedcolor"  "255 255 255 255"
-            "defaultBgcolor_override"       "40 40 40 255"
+            "defaultBgcolor_override"       "IsaacMediumGray"
             "armedBgColor_override" "35 35 35 255"               
         }
 
@@ -474,7 +474,7 @@
             "border_armed"              "NoBorder"
             "image_drawcolor"   "255 255 255 255"
             "image_armedcolor"  "255 255 255 255"
-            "defaultBgcolor_override"       "40 40 40 255"
+            "defaultBgcolor_override"       "IsaacMediumGray"
             "armedBgColor_override" "35 35 35 255"
             
 			"SubImage"

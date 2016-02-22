@@ -14,7 +14,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
@@ -152,25 +152,6 @@
 			"use_item_sounds"	"1"
 		}
 	}
-	
-	"CaratLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor_override" "200 80 60 255"
-	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -179,7 +160,7 @@
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
-		"ypos"			"15"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"25"
@@ -230,19 +211,19 @@
 		"paintborder"		"0"
 		
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "100 100 100 255"
-		"selectionColor_override" "40 40 40 255"
+		"selectionColor_override" "IsaacMediumGray"
 		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "40 40 40 255"
+		"defaultSelectionBG2Color_override" "IsaacMediumGray"
 
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
-			"defaultBgColor_override"	"40 40 40 255"
+			"defaultBgColor_override"	"IsaacMediumGray"
 			"armedFgColor_override"	"White"
-			"armedBgColor_override"	"40 40 40 255"
+			"armedBgColor_override"	"IsaacMediumGray"
 			"paintbackgroundtype"	"0"
 		}
 	}	
@@ -276,7 +257,7 @@
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"east"
 		"xpos"			"c5"
-		"ypos"			"12"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"20"
@@ -305,7 +286,7 @@
 		"unicode"		"1"
 		"paintborder"		"1"
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"paintbackgroundtype" "0"
 		"font"		"HudFontSmallest"
 	}
@@ -333,19 +314,19 @@
 		"paintborder"		"0"
 		
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "100 100 100 255"
-		"selectionColor_override" "40 40 40 255"
+		"selectionColor_override" "IsaacMediumGray"
 		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "40 40 40 255"
+		"defaultSelectionBG2Color_override" "IsaacMediumGray"
 
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
-			"defaultBgColor_override"	"40 40 40 255"
+			"defaultBgColor_override"	"IsaacMediumGray"
 			"armedFgColor_override"	"White"
-			"armedBgColor_override"	"40 40 40 255"
+			"armedBgColor_override"	"IsaacMediumGray"
 			"paintbackgroundtype"	"0"
 		}
 	}	
@@ -946,8 +927,8 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"85"
+			"xpos"			"c220"
+			"ypos"			"290"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
@@ -961,8 +942,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"NextButton"
-			"xpos"			"260"
-			"ypos"			"85"
+			"xpos"			"c265"
+			"ypos"			"290"
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"

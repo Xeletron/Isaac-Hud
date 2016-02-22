@@ -47,7 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 		}
 
 		"TitleLabel"
@@ -79,7 +79,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"IsaacMediumGray"
 		}
 
 		"NumServers"
@@ -158,7 +158,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 		}
 
 		"TitleLabel"

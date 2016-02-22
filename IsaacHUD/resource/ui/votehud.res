@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 				
 		"PassedIcon"
 		{
@@ -78,7 +78,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 		
 		"Header"
 		{
@@ -395,7 +395,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 				
 		"FailedIcon"
 		{
@@ -462,7 +462,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 				
 		"FailedIcon"
 		{
@@ -532,7 +532,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"border"			"NoBorder"
-		"bgcolor_override"	"30 30 30 255"
+		"bgcolor_override"	"IsaacDarkGray2"
 		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"

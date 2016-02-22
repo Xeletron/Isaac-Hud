@@ -137,7 +137,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}
 		
 		"InnerBGPanel"
@@ -284,7 +284,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"border"		"NoBorder"
 			"PaintBackgroundType"	"2"
 		}
@@ -303,7 +303,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"border"		"NoBorder"
 			"PaintBackgroundType"	"2"
 		}
@@ -322,7 +322,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"border"		"NoBorder"
 			"PaintBackgroundType"	"2"
 		}
@@ -341,7 +341,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"border"		"NoBorder"
 			"PaintBackgroundType"	"2"
 		}
@@ -360,7 +360,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"border"		"NoBorder"
 			"PaintBackgroundType"	"2"
 		}
@@ -379,7 +379,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"border"		"NoBorder"
 			"PaintBackgroundType"	"2"
 		}
@@ -486,7 +486,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"45 45 45 255"
+			"bgcolor_override"	"IsaacMediumGray"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
@@ -540,7 +540,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"bgcolor_override"	"45 45 45 255"
+			"bgcolor_override"	"IsaacMediumGray"
 		}
 		
 		"UpgradeItemsLabel"
@@ -744,7 +744,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"40 40 40 255"
+			"bgcolor_override"		"IsaacMediumGray"
 		}
 		
 		"TipText"

@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}				
 	"BackgroundFooter"
 	{
@@ -59,7 +59,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 	}				
 	"FooterLine"
 	{

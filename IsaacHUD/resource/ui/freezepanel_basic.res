@@ -175,7 +175,7 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"IsaacDarkGray2"
 		"PaintBackgroundType"	"0"
 		"PaintBackground"	"1"
 		
@@ -269,7 +269,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}	
 
 				
@@ -288,7 +288,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}
 		
 		"FreezeLabel"
@@ -409,7 +409,7 @@
 				"autoResize"	"0"
 				"PaintBackgroundType"	"0"
 				"paintbackground"		"1"
-				"bgcolor_override"		"30 30 30 255"
+				"bgcolor_override"		"IsaacDarkGray2"
 			}	
 
 			

@@ -13,8 +13,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"bgcolor_override"		"IsaacDarkGray"
+		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"border"				"NoBoder"
 	}
 	
 	"TitleLabel"

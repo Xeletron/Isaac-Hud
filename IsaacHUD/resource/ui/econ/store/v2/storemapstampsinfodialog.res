@@ -48,7 +48,7 @@
 		"paintbackground"	"1"
 		"border"		"NoBorded"
 		"PaintBorder"	"1"
-		"bgcolor_override" "25 25 25 255"
+		"bgcolor_override" "IsaacDarkGray"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -82,7 +82,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "30 30 30 255"
+			"bgcolor_override" "IsaacDarkGray2"
 		}
 		
 		// Rounded corners on the bottom of the footer

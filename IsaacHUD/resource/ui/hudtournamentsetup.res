@@ -38,7 +38,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		
 		 if_mvm
  		{
@@ -177,7 +177,7 @@
 		"unicode"		"0"
 		"wrap"			"0"
 		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"Border"		"NoBorder"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"

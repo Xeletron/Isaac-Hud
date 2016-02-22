@@ -9,7 +9,7 @@
 		"ypos"					"88"
 		"wide"					"310"
 		"tall"					"333"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"NoBoder"
@@ -45,7 +45,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"PaintBackground"	"1"
@@ -89,19 +89,19 @@
 		"paintborder"		"0"
 		
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "100 100 100 255"
-		"selectionColor_override" "40 40 40 255"
+		"selectionColor_override" "IsaacMediumGray"
 		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "40 40 40 255"
+		"defaultSelectionBG2Color_override" "IsaacMediumGray"
 
 		"Button"
 		{
 			"defaultFgColor_override"	"White"
-			"defaultBgColor_override"	"40 40 40 255"
+			"defaultBgColor_override"	"IsaacMediumGray"
 			"armedFgColor_override"	"White"
-			"armedBgColor_override"	"40 40 40 255"
+			"armedBgColor_override"	"IsaacMediumGray"
 			"paintbackgroundtype"	"0"
 		}
 	}

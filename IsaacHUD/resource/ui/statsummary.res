@@ -36,7 +36,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 	
 		"Background"
 		{
@@ -92,7 +92,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"border"		"NoBorder"
-				"bgcolor_override"	"25 25 25 255"
+				"bgcolor_override"	"IsaacDarkGray"
 			}
 	
 			"ActualLabel"
@@ -129,7 +129,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"IsaacMediumGray"
 			
 			"InfoLine"
 			{
@@ -446,7 +446,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"IsaacMediumGray"
 		}
 		
 		"AveragesLine"
@@ -554,7 +554,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"45 45 45 255"
+			"fillcolor"		"IsaacMediumGray"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
@@ -575,7 +575,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"45 45 45 255"
+			"fillcolor"		"IsaacMediumGray"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel1A"
@@ -1837,7 +1837,7 @@
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
 			"border"		"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"IsaacMediumGray"
 		}
 		
 		"RecordsLine"
@@ -2658,7 +2658,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 	}
 	
 	"TipLine"

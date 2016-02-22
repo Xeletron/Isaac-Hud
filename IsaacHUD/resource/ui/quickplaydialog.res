@@ -48,7 +48,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"IsaacDarkGray"
 			"proportionalToParent"	"1"
 		}
 
@@ -137,7 +137,23 @@
 				"tall"		"245"
 				"visible"	"1"
 				"enabled"	"1"
-				"border"				"MainMenuHighlightBorder"
+				"border"				"NoBorder"
+				
+				"ModeInfoContainerBg"
+				{
+					"ControlName"	"EditablePanel"
+					"fieldName"		"ModeInfoContainerBg"
+					"xpos"		"0"
+					"ypos"		"0"
+					"wide"		"320"
+					"tall"		"245"
+					"autoResize"		"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"		"0"
+					"bgcolor_override"	"White"
+				}
 
 				"ModeImage"
 				{
@@ -191,7 +207,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"25 25 25 255"
+					"fgcolor_override"	"IsaacDarkGray"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
@@ -238,7 +254,7 @@
 					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
 					"border"				"NoBorder"
-					"bgcolor_override"	"25 25 25 255"
+					"bgcolor_override"	"IsaacDarkGray"
 		
 					"Background"
 					{
@@ -253,7 +269,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"25 25 25 255"
+						"bgcolor_override"	"IsaacDarkGray"
 					}
 		
 					"MoreInfoLabel"

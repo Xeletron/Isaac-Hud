@@ -48,7 +48,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}	
 		
 		"count"
@@ -134,7 +134,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"IsaacDarkGray"
 		}
 		
 		"count"

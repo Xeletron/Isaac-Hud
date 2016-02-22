@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
 	}
 	"AvatarImage"
 	{
@@ -43,7 +43,7 @@
 		"image"			""
 		"scaleImage"	"1"	
 		"border"		"NoBorder"
-		"color_outline"	"25 25 25 255"
+		"color_outline"	"IsaacDarkGray"
 	}
 
 	"AvatarTextLabel"

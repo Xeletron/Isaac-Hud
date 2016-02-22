@@ -97,7 +97,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"25 25 25 255"
+		"fgcolor_override"	"IsaacDarkGray"
 	}
 	
 	"CurPageLabel"
@@ -117,7 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override"	"25 25 25 255"
+		"fgcolor_override"	"IsaacDarkGray"
 	}
 	
 	"DescLabel"
@@ -136,7 +136,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"25 25 25 255"
+		"fgcolor_override"	"IsaacDarkGray"
 	}
 	
 	"SelectCurrentGameModeButton"

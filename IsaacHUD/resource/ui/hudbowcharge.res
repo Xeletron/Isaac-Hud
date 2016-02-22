@@ -40,7 +40,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmallestBold"
-		"fgcolor_override"		"25 25 25 255"
+		"fgcolor_override"		"IsaacDarkGray"
 	}		
 
 	"MeterBackground"
@@ -58,7 +58,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	
 	"MeterTeamLine"

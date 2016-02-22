@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"IsaacDarkGray"
+		"infocus_bgcolor_override" "IsaacDarkGray"
+		"outoffocus_bgcolor_override" "IsaacDarkGray"
 
 		"item_ypos"						"50"
 		"output_item_ypos"				"255"		

@@ -44,7 +44,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"border"			"NoBorder"
 		
 		"ClassNameLabel"

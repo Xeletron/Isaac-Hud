@@ -10,7 +10,7 @@
 		"wide"					"560"
 		"tall"					"405"
 		"border"				"NoBoder"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 
 	"TitleLabel"

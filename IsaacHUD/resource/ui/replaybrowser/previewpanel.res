@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"border"		"NoBorder"
 		"proportional"	"0"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"IsaacMediumGray"
 		"paintbackground"	"1"
 	}
 	

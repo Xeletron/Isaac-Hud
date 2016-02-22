@@ -137,7 +137,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"		"40 40 40 255"
+			"bgcolor_override"		"IsaacMediumGray"
 		}
 
 		"Line"
@@ -232,7 +232,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}
 	
 	"BlueLine"
@@ -292,7 +292,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 	
 	"RedFillBackground"
@@ -310,7 +310,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"IsaacMediumGray"
 	}
 
 	"ScoreContainer"
@@ -823,7 +823,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallestBold"
-				"fgcolor"		"25 25 25 255"		
+				"fgcolor"		"IsaacDarkGray"		
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
 			}
@@ -923,7 +923,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallestBold"
-				"fgcolor"		"25 25 25 255"		
+				"fgcolor"		"IsaacDarkGray"		
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
 			}

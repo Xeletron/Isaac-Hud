@@ -26,7 +26,7 @@
 		"tall"		"125"
 		"visible"	"1"
 		"mouseinputenabled" "0"
-		"bgcolor_override" 	"45 45 45 255"
+		"bgcolor_override" 	"IsaacMediumGray"
 	}
 
 	"PreviewImage"

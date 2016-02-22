@@ -36,7 +36,7 @@
 
 		//Change to 1 to enable, 0 to disable
 		"visible"	"0"
-		"enabled"	"0"
+		"enabled"	"1"
 		
 		"xpos"	"0"
 		"ypos"	"0"
@@ -355,7 +355,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudProgressBar
@@ -755,7 +755,7 @@
 		
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
-		"icon_xpos"			"15"
+		"icon_xpos"			"5"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
