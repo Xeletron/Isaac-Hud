@@ -28,7 +28,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"140"
+			"wide"			"150"
 			"tall"			"20"
 			"zpos"			"1"
 			"paintborder"	"1"
@@ -41,7 +41,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Background"
-				"xpos"			"2"
+				"xpos"			"4"
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"150"
@@ -54,7 +54,7 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"IsaacDarkGray"
 						
-						if_mvm
+				if_mvm
 				{
 					"visible"		"0"
 				}
@@ -65,7 +65,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultSmall"
-				"xpos"			"52"
+				"xpos"			"53"
 				"ypos"			"-2"
 				"zpos"			"5"
 				"wide"			"150"
@@ -92,7 +92,7 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"30"
+				"xpos"			"32"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"22"
@@ -136,7 +136,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"2"
+				"xpos"				"4"
 				"ypos"				"0"
 				"zpos"				"3"
 				"wide"				"50"
@@ -212,6 +212,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
+				"enabled"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"150 150 150 255"
@@ -227,7 +228,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"HudFontSmallestBold"
-				"xpos"			"52"
+				"xpos"			"53"
 				"ypos"			"8"
 				"zpos"			"6"
 				"wide"			"30"

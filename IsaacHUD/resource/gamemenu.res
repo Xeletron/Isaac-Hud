@@ -61,14 +61,12 @@
 		"label" "#GameUI_GameMenu_ReplayDemos"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
-		"tooltip" 	"#GameUI_GameMenu_ReplayDemos"
 	}
 	"SteamWorkshopButton"
 	{
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
-		"tooltip" 	"#MMenu_SteamWorkshop"
 	}
 	"VRModeButton"
 	{
@@ -76,7 +74,6 @@
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
-		"tooltip" 	"#MMenu_VRMode_Activate"
 	}
 	"TrainingButton"
 	{
@@ -84,58 +81,6 @@
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
-		"tooltip" 	"#TF_Training"
-	}
-	
-	"ConsoleButton"
-	{
-		"label"			"Console"
-		"Command"		"engine toggleconsole"
-		"subimage"		"glyph_workshop_edit"
-		"tooltip" 		"#GameUI_Console"
-	}
-	
-	"FPSButton"
-	{
-		"label"			"FPS"
-		"Command"		"engine toggle cl_showfps 0 1"
-		"tooltip" 		"Show / Hide FPS"
-	}
-	
-	"DemoButton"
-	{
-		"label"			"DemoUI"
-		"Command"		"engine demoui"
-		"tooltip" 		"Demo Playback"
-	}
-	
-	"TF2SettingsButton"
-	{
-		"label"			""
-		"Command"		"opentf2options"
-		"tooltip" 		"#MMenu_AdvOptions"
-	}
-	
-	"MOTD_ShowButtonPanel"
-	{
-		"label"			""
-		"Command"		"motd_show"
-		"tooltip" 		"News"
-		"navActivate"       "<MOTD_CloseButton"
-	}
-	
-	"QuestLogButton"
-	{
-		"label"			""
-		"command"		"questlog"
-		"tooltip" 		"#QuestLog_Title"
-	}
-	
-	"MinmodeButton"
-	{
-		"label"			"Minmode"
-		"Command"		"engine toggle cl_hud_minmode"
-		"tooltip" 		"Change scoreboard"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
@@ -186,6 +131,43 @@
 		"tooltip" "#MMenu_RequestCoach"
 	}
 	
+	"ConsoleButton"
+	{
+		"label"			"Console"
+		"Command"		"engine toggleconsole"
+		"subimage"		"glyph_workshop_edit"
+		"tooltip" 		"#GameUI_Console"
+	}
+	
+	// Custom Buttons
+	"FPSButton"
+	{
+		"label"			"FPS"
+		"Command"		"engine toggle cl_showfps 0 1"
+		"tooltip" 		"Show / Hide FPS"
+	}
+	
+	"DemoButton"
+	{
+		"label"			"DemoUI"
+		"Command"		"engine demoui"
+		"tooltip" 		"Demo Playback"
+	}
+	
+	"TF2SettingsButton"
+	{
+		"label"			""
+		"Command"		"opentf2options"
+		"tooltip" 		"#MMenu_AdvOptions"
+	}
+	
+	"MinmodeButton"
+	{
+		"label"			"Minmode"
+		"Command"		"engine toggle cl_hud_minmode"
+		"tooltip" 		"Change scoreboard"
+	}
+	
 	"QuitButton2"
 	{
 		"label"			"#TF_Quit_Title"
@@ -194,6 +176,4 @@
 		"OnlyInGame"	"1"
 		"tooltip" 		"#TF_Quit_Title"
 	}
-	
-	
 }
