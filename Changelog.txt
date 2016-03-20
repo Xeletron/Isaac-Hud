@@ -48,3 +48,6 @@ Version 1.7 (2016.02.22)
 - Updated crafting panel
 - Updated trading panel
 
+Version 1.7.1 (2015.03.08)
+- Added competitive machmaking stuff
+

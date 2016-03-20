@@ -68,7 +68,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"cs-0.5"
-			"ypos"			"35"
+			"ypos"			"38"
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
@@ -897,11 +897,11 @@
 		
 		if_competitive
 		{
-			"xpos"			"c-110"
-			"wide"			"220"
-			"ypos"			"3"
-			"tall"			"12"
-			"visible"		"1"
+			"xpos"			"c-55"
+			"wide"			"110"
+			"ypos"			"12"
+			"tall"			"25"
+			"visible"		"0"
 		}
 
 		if_readymode
@@ -940,19 +940,16 @@
 		}
 		if_readymode
 		{
-			"xpos"			"c-100"
-			"wide"			"2"
-			"ypos"			"3"
-			"tall"			"12"
-			"visible"		"1"
+			"visible"		"0"
 		}
 		if_competitive
 		{
-			"xpos"			"c-110"
-			"wide"			"2"
-			"ypos"			"3"
-			"tall"			"12"
-			"visible"		"1"
+			"xpos"			"c-55"
+			"wide"			"1"
+			"ypos"			"12"
+			"zpos"			"5"
+			"tall"			"25"
+			"visible"		"0"
 		}
 	}
 	
@@ -983,19 +980,16 @@
 		}
 		if_readymode
 		{
-			"xpos"			"c120"
-			"wide"			"2"
-			"ypos"			"3"
-			"tall"			"12"
-			"visible"		"1"
+			"visible"		"0"
 		}
 		if_competitive
 		{
-			"xpos"			"c110"
-			"wide"			"2"
-			"ypos"			"3"
-			"tall"			"12"
-			"visible"		"1"
+			"xpos"			"c54"
+			"wide"			"1"
+			"ypos"			"12"
+			"zpos"			"5"
+			"tall"			"25"
+			"visible"		"0"
 		}
 	}	
 	"TournamentConditionLabel"
@@ -1024,11 +1018,7 @@
 
 		if_competitive
 		{
-			"xpos"			"c-125"
-			"ypos"			"4"
-			"visible"		"1"
-			"textAlignment"		"center"
-			"font"			"TFFontMedium"
+			"visible"		"0"
 		}
 
 		if_readymode
@@ -1104,24 +1094,24 @@
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
-			"FgColor"		"200 150 150 255"
+			"FgColor"		"200 100 100 255"
 			"textAlignment"		"east"
 		}
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"c-100"
-			"ypos"			"20"
+			"font"			"HudFontSmallBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"18"
 			"wide"			"220"
 			"tall"			"12"
 			"zpos"			"3"
-			"FgColor"		"200 150 150 255"
+			"FgColor"		"200 100 100 255"
 		}
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontSmallBold"
 			"xpos"			"c-95"
 			"ypos"			"20"
 			"wide"			"220"

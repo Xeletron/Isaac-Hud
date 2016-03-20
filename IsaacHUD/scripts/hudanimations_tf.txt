@@ -569,6 +569,18 @@ event ActiveTimerBGPulse
 	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
 }
 
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue Alpha	"255"		Linear 0.0 0.4
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue Alpha	"50"		Linear 0.0 0.4
+}
+
 //===========================================
 
 event TeamsFullArrowAnimate
@@ -797,7 +809,7 @@ event SpyWarningFlashEnd
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"200 150 150 255"		Linear 0.0 0.3
+	Animate	TournamentInstructionsLabel 	FgColor		"200 100 100 255"		Linear 0.0 0.3
 }
 
 event HudReadyPulseLoop
@@ -1428,7 +1440,7 @@ Animate HudChat ypos 275 Accel 0 0
 event HudTournament_MoveChatWindow
 {
 RunEvent CompetitiveGame_LowerChatWindow 0
-RunEvent CompetitiveGame_RestoreChatWindow 8
+RunEvent CompetitiveGame_RestoreChatWindow 10
 }
 
 //--------------------------------------------------------------------------
@@ -1476,11 +1488,22 @@ event HudTournament_DoorsClose
 	SetVisible CountdownLabel 0 9.9
 	SetVisible CountdownLabelShadow 0 9.9
 
-	SetVisible	MatchStartingBG	0	10
-	SetVisible	BlueTeamPanel	0	10
-	SetVisible	RedTeamPanel	0	10
+	RunEvent HudTournament_DoorsCleanup 10
 	
 	SetVisible CountdownBG 1 11
+}
+
+event HudTournament_DoorsCleanup
+{
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
+
+	SetVisible	MatchStartingBG	0	0
+	SetVisible	BlueTeamPanel	0	0
+	SetVisible	RedTeamPanel	0	0
+
+	Animate RedTeamPanel xpos r-5 Accel 0 0
+	Animate BlueTeamPanel xpos -155 Accel 0 0
 }
 
 event PlayDoorSlamParticles
@@ -1500,9 +1523,9 @@ event PlayDoorOpenAnim
 
 event HudTournament_ShowTimerCompetitive
 {
-	Animate CountdownLabel ypos 43 Linear 0.0 0.0
+	Animate CountdownLabel ypos 46 Linear 0.0 0.0
 	Animate CountdownLabel alpha 255 Linear 0.0 0.2
-	Animate CountdownLabelShadow ypos 43 Linear 0 0
+	Animate CountdownLabelShadow ypos 46 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
@@ -1511,8 +1534,8 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_ShowTimerDefault
 {
-	Animate CountdownLabel ypos 425 Linear 0 0
-	Animate CountdownLabelShadow ypos 425 Linear 0 0
+	Animate CountdownLabel ypos 46 Linear 0 0
+	Animate CountdownLabelShadow ypos 46 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
@@ -1530,12 +1553,13 @@ event HudTournament_HideTimer
 event Hud_StatsAndMedals_Show
 {
 	SetVisible	DrawingPanel	0	0
-	SetVisible	WinPanelLogo	0	0
 	SetVisible	StatsBgPanel	1	0
 	SetVisible	StatsLabelPanel	1	0
 	Animate StatsLabelPanel ypos 75 Accel 0 0.1
 	Animate BlueMedals ypos 75 Accel 0 0.1
 	Animate RedMedals ypos 75 Accel 0 0.1
+	Animate BlueTeamLabel ypos 107 Accel 0 0.1
+	Animate RedTeamLabel ypos 107 Accel 0 0.1
 }
 
 event CompetitiveGame_HideDisconnectButton
@@ -1546,5 +1570,25 @@ event CompetitiveGame_HideDisconnectButton
 event CompetitiveGame_ShowDisconnectButton
 {
 	Animate DisconnectButton ypos r50 Accel 0 0.4
+}
+
+event CompetitiveGame_ShowWinnersSign
+{
+	FireCommand 0.5 "animation intro"
+	FireCommand 12.3 "animation outro"
+}
+
+
+event HudTournament_ShowRoundSign
+{
+	SetVisible RoundSignModel 1 0
+	RunEventChild RoundSignModel HudTournament_PlaySignAnim 0
+	SetVisible RoundSignModel 0 6
+}
+
+event HudTournament_PlaySignAnim
+{
+	FireCommand 0 "animation intro"
+	FireCommand 5 "animation outro"
 }
 //

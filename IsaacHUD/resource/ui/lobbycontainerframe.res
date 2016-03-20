@@ -780,7 +780,7 @@
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"250"
-		"tall"			"100"
+		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
@@ -789,11 +789,11 @@
 		
 		"force_close"	"1"
 		"end_x"			"c+10"
-		"end_y"			"60"
+		"end_y"			"160"
 		"end_wide"		"300"
-		"end_tall"		"175"
-		"callout_inparents_x"	"c-35"
-		"callout_inparents_y"	"230"
+		"end_tall"		"135"
+		"callout_inparents_x"	"c-13"
+		"callout_inparents_y"	"185"
 		"next_explanation"		""
 		
 		"TitleLabel"
@@ -831,7 +831,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "0 0 0 255"
 		}
 		
 		"CloseButton"
@@ -897,7 +897,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "Blank"
 		}
 	}
 }

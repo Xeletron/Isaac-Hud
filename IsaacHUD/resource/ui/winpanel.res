@@ -84,10 +84,10 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"IsaacDarkGray"
 		}
-		"BlueTeamLabel"
+		"BlueTeamName"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamLabel"
+			"fieldName"		"BlueTeamName"
 			"font"			"HudFontMediumBold"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
@@ -119,10 +119,10 @@
 			"enabled"		"1"
 			"fgcolor"		"HUDBlueTeam"
 		}							
-		"RedTeamLabel"
+		"RedTeamName"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamLabel"
+			"fieldName"		"RedTeamName"
 			"font"			"HudFontMediumBold"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"

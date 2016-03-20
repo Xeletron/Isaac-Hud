@@ -120,10 +120,10 @@
  		}
 	}
 
-	"BlueTeamLabel"
+	"BlueTeamName"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamName"
 		"font"			"HudFontMediumBold"
 		"font_minmode"			"HudFontSmallestBold"
 		"labelText"		"%blueteamname%"
@@ -289,10 +289,10 @@
 	}
 														
 		
-	"RedTeamLabel"
+	"RedTeamName"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamName"
 		"font"			"HudFontMediumBold"
 		"font_minmode"			"HudFontSmallestBold"
 		"labelText"		"%redteamname%"

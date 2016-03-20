@@ -17,6 +17,12 @@
 		"src_corner_width"		"12"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
+		
+		if_comp
+		{
+			"visible"	"0"
+		}
+		
 	}
 	"TimePanelBackground"
 	{
@@ -34,6 +40,11 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacDarkGray"
+		
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"TimePanelProgressBar"
 	{

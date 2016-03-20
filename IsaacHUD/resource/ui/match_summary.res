@@ -29,6 +29,62 @@
 		"AnimRedPlayerListBGWide"			"p.483"
 		"AnimRedPlayerListBGXPos"			"r5-p.483"
 	}
+	
+	"WinnerSign"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"WinnerSign"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"70"
+		"proportionaltoparent"	"1"
+		
+		"model"
+		{
+			"modelname"	"models/props_ui/comp_win_banner.mdl"
+			"skin"		"0"
+			"angles_x"	"30"
+			"angles_y"	"180"
+			"angles_z"	"0"
+			"origin_x"	"150"
+			"origin_y"	"0"
+			"origin_z"	"62"
+			"spotlight"	"1"
+			
+
+			"animation"
+			{
+				"name"			"ref"
+				"sequence"		"ref"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"intro"
+				"sequence"		"intro"
+			}
+			
+			"animation"
+			{
+				"name"			"idle"
+				"sequence"		"idle"
+			}
+
+			"animation"
+			{
+				"name"			"outro"
+				"sequence"		"outro"
+			}
+		}
+	}	
 	"StatsBgPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -57,20 +113,6 @@
 
 		"linecolor"			"RedSolid"
 		"team_colors"		"1"
-	}
-	"WinPanelLogo"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"WinPanelLogo"
-		"xpos"			"c-75"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"75"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"competitive/comp_winners_logo01"	
-		"scaleImage"	"1"	
 	}
 	"ParticlePanel"
 	{
@@ -140,6 +182,24 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+		}
+		"StatsAndMedalsShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"StatsAndMedalsShadow"
+			"font"			"MatchSummaryStatsAndMedals"
+			"labelText"		"#TF_StatsAndMedals"
+			"fgcolor"		"Blank"
+			"textAlignment"		"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}
 
@@ -228,7 +288,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamName"
 			"font"			"HudFontMediumBold"
-			"labelText"		"BLU"
+			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"14"	
 			"ypos"			"99"
@@ -458,7 +518,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamName"
 			"font"			"HudFontMediumBold"
-			"labelText"		"RED"
+			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"r5-p.213"
 			"ypos"			"99"
