@@ -5,12 +5,12 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"				"HudTeamStatus"
 
-		"team1_base_x"	"c-70"
-		"team1_base_y"	"2"
+		"team1_base_x"	"c-65"
+		"team1_base_y"	"1"
 		"team1_delta_x"	"-22"
 		"team1_delta_y"	"0"
 		"team2_base_x"	"c40"
-		"team2_base_y"	"2"
+		"team2_base_y"	"1"
 		"team2_delta_x"	"22"
 		"team2_delta_y"	"0"
 
@@ -18,19 +18,20 @@
 		{
 			"visible"		"0"
 			"wide"			"22"
-			"tall"			"22"
+			"tall"			"50"
 			"zpos"			"1"
 
 			"color_portrait_bg_red"	"119 62 61 255"
 			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"49 44 42 255"
+			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead"	"96 96 96 255"
+			"color_portrait_blend_dead_red"	"255 255 255 255"
+			"color_portrait_blend_dead_blue" "255 255 255 255"
 			
 			"playername"
 			{
@@ -176,15 +177,15 @@
 				"font"			"HudFontSmallestBold"
 				"xpos"			"3"
 				"ypos"			"0"
-				"zpos"			"5"
+				"zpos"			"0"
 				"wide"			"19"
-				"tall"			"19"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				//"fgcolor"		"235 226 202 255"
+				"fgcolor"		"White"
 			}
 			"chargeamount"
 			{
@@ -219,6 +220,20 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+			}
+			"DeathPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DeathPanel"
+				"xpos"			"2"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"21"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status"	
+				"scaleImage"	"1"	
 			}
 		}
 	}

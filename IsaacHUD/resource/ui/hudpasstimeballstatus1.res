@@ -87,29 +87,14 @@
 		pin_to_sibling_corner	6
 	}
 
-	"ProgressLevelBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-190"
-		"ypos"			"r60"
-		"zpos"			"0"
-		"wide"			"380"
-		"tall"			"48"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"image"			""
-		"scaleImage"	"1"
-	}
 	"Background"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
-		"xpos"			"c-70"
-		"ypos"			"r30"
+		"xpos"			"c-60"
+		"ypos"			"r60"
 		"zpos"			"0"
-		"wide"			"142"
+		"wide"			"122"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -119,15 +104,14 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacDarkGray"
 	}
-	
 	"TeamSideSeparator"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TeamSideSeparator"
-		"xpos"			"c-1"
-		"ypos"			"r30"
+		"xpos"			"c0"
+		"ypos"			"r60"
 		"zpos"			"3"
-		"wide"			"2"
+		"wide"			"1"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -138,14 +122,31 @@
 		"bgcolor_override"		"White"
 	}
 
+	"ProgressLevelBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ProgressLevelBar"	
+		"xpos"			"c-62"
+		"ypos"			"r60"
+		"zpos"			"-1"
+		"wide"			"125"
+		"tall"			"11"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		""
+		// image is 1024x128, actual pixels are 872x43, scale 0.8515625
+		"image"			"../passtime/hud/passtime_ballcontrol_bar"
+		"scaleImage"	"1"
+	}
+
 	"BlueProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-64"
-		"ypos"			"r23"
+		"xpos"			"c-60"
+		"ypos"			"r56"
 		"visible"		"0"
 	}
 
@@ -155,8 +156,8 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c66"
-		"ypos"			"r23"
+		"xpos"			"c60"
+		"ypos"			"r56"
 		"visible"		"0"
 	}	
 
@@ -164,9 +165,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalBlue0"	
-		"xpos"			"c-162"
-		"ypos"			"r72"
-		"zpos"			"1"									
+		"xpos"			"c-64"
+		"ypos"			"r61"
+		"zpos"			"1"								
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -174,7 +175,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
+		"labelText"		"0"
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"	"1"	
 	}
@@ -183,8 +184,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalBlue1"	
-		"xpos"			"c-132"
-		"ypos"			"r72"
+		"xpos"			"c-50"
+		"ypos"			"r61"
 		"zpos"			"1"									
 		"wide"			"12"
 		"tall"			"12"
@@ -202,8 +203,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalBlue2"	
-		"xpos"			"c-102"
-		"ypos"			"r72"
+		"xpos"			"c-37"
+		"ypos"			"r61"
 		"zpos"			"1"									
 		"wide"			"12"
 		"tall"			"12"
@@ -222,8 +223,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalRed0"	
-		"xpos"			"c146"
-		"ypos"			"r72"
+		"xpos"			"c58"
+		"ypos"			"r61"
 		"zpos"			"1"									
 		"wide"			"12"
 		"tall"			"12"
@@ -241,8 +242,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalRed1"
-		"xpos"			"c116"
-		"ypos"			"r72"
+		"xpos"			"c42"
+		"ypos"			"r61"
 		"zpos"			"1"									
 		"wide"			"12"
 		"tall"			"12"
@@ -261,8 +262,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalRed2"
-		"xpos"			"c86"
-		"ypos"			"r72"
+		"xpos"			"c29"
+		"ypos"			"r61"
 		"zpos"			"1"									
 		"wide"			"12"
 		"tall"			"12"
@@ -283,8 +284,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -302,8 +303,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"32"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -317,131 +318,24 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		//font					TargetID
+		"font"					"HudFontSmallest"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"
 		"xpos"					"0"
-		"ypos"					"-5"
+		"ypos"					"37"
 		"wide"					"150"
-		"tall"					"16"
+		"tall"					"10"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
+		"bgcolor_override"		"IsaacDarkGray2"
+		//border 					TFThinLineBorder
 		pin_to_sibling			ProgressLevelBar
 		pin_corner_to_sibling	4
 		pin_to_sibling_corner	6
 	}
-
-
-
-	"BallPowerCluster" 
-	{
-		"ControlName" "EditablePanel"
-		"fieldName" "BallPowerCluster"
-		"xpos" "0"
-		"ypos" "32"
-		"zpos" "5"
-		"wide" "f0"
-		"tall" "f0"
-		"autoResize"	"0"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"BallPowerMeterFrame"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BallPowerMeterFrame"	
-			"xpos"			"c-100"
-			"ypos"			"0"
-			"zpos"			"5"
-			"wide"			"200"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"image"			"../passtime/hud/passtime_powerball_meter_frame"
-			"scaleImage"	"1"					
-		}
-
-		"BallPowerMeterFinalSectionContainer"
-		{
-			// This exists because the bar is filled by changing the width dynamically
-			// and if you change the width of the ImagePanel, it will stretch the image.
-			// But if you instead change the width of this container, the image is simply
-			// cut off instead of stretched.
-			// Also so that the bar is clipped nicely to the border.
-			"ControlName"		"EditablePanel"
-			"fieldName"			"BallPowerMeterFinalSectionContainer"
-			"xpos"			"c-85"
-			"ypos"			"16"
-			"zpos"			"3"
-			"wide"			"168"
-			"tall"			"18"
-			"visible"			"1"
-			"enabled"			"1"
-
-			"BallPowerMeterFinalSection"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFinalSection"	
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"168"
-				"tall"			"18"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"image"			"white"
-				"scaleImage"	"1"					
-			}
-		}
-
-
-		"BallPowerMeterFillContainer"
-		{
-			// This exists because the bar is filled by changing the width dynamically
-			// and if you change the width of the ImagePanel, it will stretch the image.
-			// But if you instead change the width of this container, the image is simply
-			// cut off instead of stretched.
-			// Also so that the bar is clipped nicely to the border.
-			"ControlName"		"EditablePanel"
-			"fieldName"			"BallPowerMeterFillContainer"
-			"xpos"			"c-85"
-			"ypos"			"16"
-			"zpos"			"4"
-			"wide"			"168"
-			"tall"			"18"
-			"visible"			"1"
-			"enabled"			"1"
-			
-			"BallPowerMeterFill"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFill"	
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"168"
-				"tall"			"18"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"image"			"white"
-				"scaleImage"	"1"					
-			}
-		}
-	}
-
-
 
 	"playericon0"
 	{

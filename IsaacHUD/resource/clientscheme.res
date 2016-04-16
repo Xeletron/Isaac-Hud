@@ -19,7 +19,7 @@ Scheme
 	Colors
 	{
 		// custom colors
-		"IsaacDarkGray"		"25 25 25 255"		// The Most dominant color in the hud
+		"IsaacDarkGray"		"25 25 25 255"		// Main color of the hud
 		"IsaacDarkGray2"		"30 30 30 255"		// Mostly used in menus
 		"IsaacMediumGray"		"40 40 40 255"		
 		

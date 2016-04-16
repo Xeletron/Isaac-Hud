@@ -52,10 +52,10 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"c-30"
+		"xpos"			"c-35"
 		"ypos"			"0"
 		"zpos"			"2"		
-		"wide"			"60"
+		"wide"			"70"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
@@ -71,7 +71,7 @@
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
 		"delta_item_start_y"	"30"
@@ -83,7 +83,7 @@
 
 		if_comp
 		{
-			"delta_item_x"			"22"	[$WIN32]
+			"delta_item_x"			"25"	[$WIN32]
 			"delta_item_start_y"	"30"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
@@ -107,15 +107,17 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			"bgcolor_override"		"Blank"
 
 			if_comp
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"20"
-				"ypos"			"12"
-				"tall"			"25"
-				"font"			"HudFontMediumSmallBold"
+				"xpos"			"15"
+				"ypos"			"11"
+				"wide"			"70"
+				"tall"			"15"
+				"font"			"HudFontSmallBold"
 				"fgcolor"		"White"
 				"bgcolor_override"		"IsaacDarkGray"
 			}

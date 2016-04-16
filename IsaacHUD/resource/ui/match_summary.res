@@ -28,62 +28,6 @@
 		"AnimRedPlayerListParentXPos"		"r7-p.47"
 		"AnimRedPlayerListBGWide"			"p.483"
 		"AnimRedPlayerListBGXPos"			"r5-p.483"
-	}
-	
-	"WinnerSign"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"WinnerSign"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"70"
-		"proportionaltoparent"	"1"
-		
-		"model"
-		{
-			"modelname"	"models/props_ui/comp_win_banner.mdl"
-			"skin"		"0"
-			"angles_x"	"30"
-			"angles_y"	"180"
-			"angles_z"	"0"
-			"origin_x"	"150"
-			"origin_y"	"0"
-			"origin_z"	"62"
-			"spotlight"	"1"
-			
-
-			"animation"
-			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"intro"
-				"sequence"		"intro"
-			}
-			
-			"animation"
-			{
-				"name"			"idle"
-				"sequence"		"idle"
-			}
-
-			"animation"
-			{
-				"name"			"outro"
-				"sequence"		"outro"
-			}
-		}
 	}	
 	"StatsBgPanel"
 	{

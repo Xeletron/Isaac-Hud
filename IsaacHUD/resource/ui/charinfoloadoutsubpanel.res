@@ -636,7 +636,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		"centerwrap"	"1"
+		"centerwrap"	"0"
 	}
 	
 	"NoSteamLabel"

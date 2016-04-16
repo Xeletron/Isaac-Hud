@@ -1534,8 +1534,8 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_ShowTimerDefault
 {
-	Animate CountdownLabel ypos 46 Linear 0 0
-	Animate CountdownLabelShadow ypos 46 Linear 0 0
+	Animate CountdownLabel ypos r55 Linear 0 0
+	Animate CountdownLabelShadow ypos r56 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
@@ -1572,12 +1572,6 @@ event CompetitiveGame_ShowDisconnectButton
 	Animate DisconnectButton ypos r50 Accel 0 0.4
 }
 
-event CompetitiveGame_ShowWinnersSign
-{
-	FireCommand 0.5 "animation intro"
-	FireCommand 12.3 "animation outro"
-}
-
 
 event HudTournament_ShowRoundSign
 {
@@ -1590,5 +1584,19 @@ event HudTournament_PlaySignAnim
 {
 	FireCommand 0 "animation intro"
 	FireCommand 5 "animation outro"
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	Animate DeathPanel ypos 20 Accel 0 0.2
+	Animate respawntime ypos 15 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+	SetVisible DeathPanel  0 0.2
 }
 //
