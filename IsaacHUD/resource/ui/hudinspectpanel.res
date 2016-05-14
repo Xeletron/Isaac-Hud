@@ -8,11 +8,11 @@
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"190"
-		"tall"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"IsaacDarkGray"
 		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
+		"PaintBackground"		"1"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -55,7 +55,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
 		"TeamLine"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -78,5 +77,6 @@
 			"src_corner_width"		"12"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
-		}	
+		}
+	}	
 }

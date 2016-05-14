@@ -12,9 +12,9 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"183"
+			"xpos"			"184"
 			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"2"
@@ -23,14 +23,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"scaleImage"		"1"
-			"src_corner_height"		"20"
-			"src_corner_width"		"20"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
-		"BlueBackground"
+		"BlueScoreBackground"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueBackground"
@@ -47,9 +43,10 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"IsaacDarkGray"
 		}
+		
 		"RedScoreBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"190"
 			"ypos"			"15"
@@ -60,17 +57,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"scaleImage"		"1"
-			"src_corner_height"		"20"
-			"src_corner_width"		"20"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
-		"RedBackground"
+		"RedScoreBackground"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"RedBackground"
+			"fieldName"		"RedScoreBackground"
 			"xpos"			"190"
 			"ypos"			"15"
 			"zpos"			"0"
@@ -84,15 +77,16 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"IsaacDarkGray"
 		}
-		"BlueTeamName"
+		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamName"
+			"fieldName"		"BlueTeamLabel"
 			"font"			"HudFontMediumBold"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"65"
 			"ypos"			"25"
+			"zpos"			"5"
 			"wide"			"100"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -118,16 +112,45 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"HUDBlueTeam"
-		}							
-		"RedTeamName"
+		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"61"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"59"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}									
+		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamName"
+			"fieldName"		"RedTeamLabel"
 			"font"			"HudFontMediumBold"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"195"
 			"ypos"			"25"
+			"zpos"			"5"
 			"wide"			"115"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -153,22 +176,51 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"HUDRedTeam"
-		}							
-
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"280"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"278"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}
 	}
-	"WinPanelBG"
+
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"12"
+		"ypos"			"75"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"		"0"	
-		
+		"wide"			"268"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	
 	"WinBackground"

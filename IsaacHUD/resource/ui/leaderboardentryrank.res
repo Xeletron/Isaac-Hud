@@ -77,24 +77,19 @@
 			"wrap"			"0"
 			"fgcolor_override"	"White"
 		}
-		"LadderRank"
+		"RankImage"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LadderRank"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"%ladderrank%"
-			"textAlignment"	"west"
-			"xpos"			"150"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"RankImage"
+			"xpos"			"230"
 			"ypos"			"2"
-			"zpos"			"2"
-			"wide"			"120"
+			"zpos"			"1"
+			"wide"			"16"
 			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
-			"fgcolor_override"	"White"
-		}	
+			"image"			""
+			"scaleImage"	"1"
+		}
 	}	
 }
