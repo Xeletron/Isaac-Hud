@@ -21,8 +21,8 @@
 			"wide"			"20"
 			"tall"			"20"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"IsaacDarkGray"
 		}
 		"AvatarImage"
 		{

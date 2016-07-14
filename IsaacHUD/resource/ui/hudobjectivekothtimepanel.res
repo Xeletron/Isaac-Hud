@@ -37,7 +37,7 @@
 			"bgcolor_override"	"Blank"
 			"alpha"			"255"
 			
-			if_comp
+			if_match
 			{
 				"font"			"HudFontSmallbold"	
 				"xpos"			"58"
@@ -86,7 +86,7 @@
 			"bgcolor_override"	"Blank"
 			"alpha"			"255"
 
-			if_comp
+			if_match
 			{
 				"font"			"HudFontSmallbold"	
 				"xpos"			"1"
@@ -115,7 +115,7 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacDarkGray"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"1"
 		}
@@ -137,7 +137,7 @@
 		"fillcolor"				"255 255 255 200"
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}

@@ -499,4 +499,71 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
+	"HomePageLabelContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomePageLabelContainer"
+		"xpos"			"c-295"
+		"ypos"			"54"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"160"
+		"mouseinputenabled"	"0"
+		"visible"		"0"
+
+		"CaseLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CaseLabel"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#Store_Case_Label"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"200"
+			"tall"			"20"
+			"autoresize"	"1"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+		}
+
+		"KeyLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KeyLabel"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#Store_Key_Label"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"70"
+			"zpos"			"0"
+			"wide"			"200"
+			"tall"			"20"
+			"autoresize"	"1"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+		}
+
+		"TauntLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CaseLabel"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#Store_Taunt_Label"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"140"
+			"zpos"			"0"
+			"wide"			"200"
+			"tall"			"20"
+			"autoresize"	"1"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+		}
+	}
 }

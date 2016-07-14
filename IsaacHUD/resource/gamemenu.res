@@ -1,46 +1,28 @@
 "GameMenu" [$WIN32]
 {
-	"FavServerButton"
+	"ViewWarButtonButton"
 	{
-		"label"			"Favorite Server"
-		"Command"		"engine connect <IP>"
-		"tooltip" 		"Favorite Server"
-	}
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"label"			"VS"
+		"Command"		"view_war"
+		"tooltip" 		"#MMenu_ViewWar"
 	}
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer" 
-		"command" "quickplay"
+		"label" "#MMenu_PlayList_Casual_Button" 
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "playpve"
+		"label" "#MMenu_PlayList_MvM_Button" 
+		"command" "play_mvm"
 		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
 	}
 	"PlayCompetitiveButton"
 	{
-		"label" "#MMenu_PlayComp" 
-		"command" "ladder_ui_show"
+		"label" "#MMenu_PlayList_Competitive_Button" 
+		"command" "play_competitive"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
 	}
 	"ServerBrowserButton"
 	{

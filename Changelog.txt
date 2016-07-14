@@ -64,4 +64,7 @@ Version 1.7.4 (2016.05.14)
 - Fixed winpanel
 - Competitive updates yet again
 - Fixed the class selection dumping errors to the console
-- 
+
+Version 1.8 (2016.07.14)
+- Compatibility with the Meet your Match update
+- Temporarily removed the favorite servers button from the main menu

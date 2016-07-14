@@ -1,11 +1,11 @@
-"Resource/MudVersion.res"
+"Resource/HudVersion.res"
 {
 	"HudLabel"
 	{
 		"ControlName"   "CExLabel"
 		"fieldName"     "HudLabel"
 		"font"          "HudFontSmallestBold"
-		"labelText"     "Isaac Hud 1.7.4"
+		"labelText"     "Isaac Hud 1.8"
 		"textAlignment" "east"
 		"xpos"          "r152"
 		"ypos"          "r15"

@@ -18,7 +18,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -41,7 +41,7 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacDarkGray"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -201,6 +201,12 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacMediumGray"
+		
+		if_match
+		{
+			"xpos"			"15"
+			"wide"		"70"
+		}
 	}
 	"ServerTimeLimitLabel"
 	{

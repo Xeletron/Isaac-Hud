@@ -103,7 +103,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
@@ -116,9 +116,6 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
-			"deferred_description"	"1"
-			"deferred_icon"			"1"
 			
 			"itemmodelpanel"
 			{

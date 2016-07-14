@@ -223,7 +223,7 @@
 		
 		"itemmodelpanel"
 		{
-			"inventory_image_type" "3"
+			"inventory_image_type" "2"
 			"allow_rot"				"0"
 			"force_square_image"	"1"
 		}

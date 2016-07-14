@@ -371,10 +371,10 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-	"Player1Medal"
+	"Player1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player1Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"Player1Badge"
 		"xpos"			"17"
 		"ypos"			"110"
 		"zpos"			"3"
@@ -382,8 +382,8 @@
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
 	}
 	"Player1Avatar"
 	{
@@ -454,10 +454,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"Player2Medal"
+	"Player2Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player2Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"Player2Badge"
 		"xpos"			"17"
 		"ypos"			"125"
 		"zpos"			"3"
@@ -465,8 +465,8 @@
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
 	}
 	"Player2Avatar"
 	{
@@ -537,19 +537,19 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"Player3Medal"
+	"Player3Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player3Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"Player3Badge"
 		"xpos"			"17"
-		"ypos"			"140"
+		"ypos"			"110"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
 	}
 	"Player3Avatar"
 	{
@@ -677,10 +677,10 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-	"KillStreakPlayer1Medal"
+	"KillStreakPlayer1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"KillStreakPlayer1Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"			"17"
 		"ypos"			"170"
 		"zpos"			"3"
@@ -688,8 +688,8 @@
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
 	}
 	"KillStreakPlayer1Avatar"
 	{
