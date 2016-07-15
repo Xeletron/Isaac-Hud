@@ -110,7 +110,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-50"
+		"xpos"				"c-35"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"110"
@@ -157,7 +157,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
+				"xpos"			"0"
 				"ypos"			"11"
 				"wide"			"70"
 				"tall"			"15"

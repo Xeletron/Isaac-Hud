@@ -1289,26 +1289,6 @@
 		"fgcolor"		"HudTrainingHint"
 		"fgcolor_lodef"	"HudTrainingHint"
 	}
-
-
-	"ClassMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassMenuSelect"
-		"xpos"			"30"
-		"ypos"			"r40"
-		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"west"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
-	}
 	
 	"ShadedBG"
 	{
@@ -1804,6 +1784,25 @@
 		"bgcolor_override"		"IsaacDarkGray2"
 	}
 	
+	"ClassSelect"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassSelect"
+		"xpos"			"c-140"
+		"ypos"			"45"
+		"zpos"			"5"
+		"wide"			"298"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"center"
+		"font"			"HudFontSmallishBold"
+		"fgcolor"		"White"
+	}
+	
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -1822,7 +1821,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"25"
-		"allow_rot"		"0"
+		"allow_rot"		"1"
 
 		"paintbackground" "0"		
 		"paintbackgroundenabled" "0"
@@ -1849,13 +1848,13 @@
 			"animation"
 			{
 				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
+				"sequence"	"competitive_winnerstate_idle"
 				"default"	"1"
 			}
 			"animation"
 			{
 				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
+				"activity"	"competitive_winnerstate_idle"
 			}
 			"animation"
 			{
@@ -1875,7 +1874,7 @@
 			"animation"
 			{
 				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
+				"sequence"	"competitive_winnerstate_idle"
 			}						
 			"animation"
 			{

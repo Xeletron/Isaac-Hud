@@ -24,7 +24,7 @@
 		"thumbnails_rows"		"5"
 		"thumbnails_columns"	"4"
 		
-		"thumbnails_x"			"c-20"
+		"thumbnails_x"			"c-300"
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
 		"thumbnails_delta_y"	"8"
@@ -179,7 +179,7 @@
 			"image_down_arrow"				"scroll_down_off"
 			"image_down_arrow_mouseover"	"scroll_down_on"
 			"image_line"		"ArmoryScrollbarWell"
-			"image_box"			""
+			"image_box"			"ArmoryScrollbarBox"
 		}
 	}
 	

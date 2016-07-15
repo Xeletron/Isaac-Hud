@@ -26,7 +26,7 @@
 		"ypos"			"25"
 		"zpos"			"-1"
 		"wide"			"60"
-		"tall"			"10"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"	
 		"pinCorner"		"0"
@@ -34,6 +34,12 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacMediumGray"
+		
+		if_comp
+		{
+			"xpos"		"15"
+			"wide"			"70"
+		}
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -41,12 +47,18 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"16"
-		"ypos"				"-25"	[$WIN32]
+		"ypos"				"-16"	[$WIN32]
 		"zpos"				"5"
 		"wide"				"60"
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
+				
+		if_comp
+		{
+			"xpos"		"15"
+			"wide"			"70"
+		}
 		
 		"TimePanelValue"
 		{
@@ -62,6 +74,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
+			
+			if_comp
+			{
+				"wide"			"70"
+				"textAlignment"	"east"
+			}
 		}		
 	}
 
@@ -72,16 +90,16 @@
 		"fieldName"		"StopWatchScoreToBeat"
 		"font"			"ClockSubTextTiny"
 		"labelText"		"%scoretobeat%"
-		"textAlignment"		"west"
-		"xpos"			"18"
-		"ypos"			"20"
-		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
+		"textAlignment"		"east"
+		"xpos"			"0"
+		"ypos"			"24"
+		"zpos"			"40"
+		"wide"			"37"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fgcolor"		"White"
 			
 	}
@@ -89,18 +107,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"HudFontSmallest"
+		"font"			"ClockSubTextTiny"
 		"labelText"		"%pointslabel%"
-		"textAlignment"		"east"
-		"xpos"			"0"
-		"ypos"			"0"
+		"textAlignment"		"west"
+		"xpos"			"39"
+		"ypos"			"24"
 		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"40"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor"		"White"
 	}

@@ -68,3 +68,14 @@ Version 1.7.4 (2016.05.14)
 Version 1.8 (2016.07.14)
 - Compatibility with the Meet your Match update
 - Temporarily removed the favorite servers button from the main menu
+
+Version 1.8.1 (2016.07.15)
+- Fixed select a class label not showing in the class selection screen
+- Fixed concise disguise menu buttons
+- Fixed minmode Scoreboard
+- Fixed the Mann Co. Catalog screen
+- Added more animations to the class selection screen
+- Added map selection to the Casual Matchmaking screen
+- Added the ability to rotate the model in the class selection screen
+- Reworked Stopwatch
+- Updated decal application panel

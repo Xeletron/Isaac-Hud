@@ -114,6 +114,12 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
+		
+		if_match
+		{
+			"xpos"			"0"
+			"wide"		"70"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -131,6 +137,12 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacMediumGray"
+	
+		if_match
+		{
+			"xpos"			"0"
+			"wide"		"70"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -184,6 +196,12 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
+		
+		if_match
+		{
+			"xpos"			"0"
+			"wide"		"70"
+		}
 	}	
 	"SetupBG"
 	{
@@ -204,7 +222,7 @@
 		
 		if_match
 		{
-			"xpos"			"15"
+			"xpos"			"0"
 			"wide"		"70"
 		}
 	}

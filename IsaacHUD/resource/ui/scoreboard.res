@@ -464,6 +464,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"310"
+		"xpos_minmode"			"r295"
 		"ypos"			"61"
 		"ypos_minmode"			"296"
 		"zpos"			"2"
@@ -480,8 +481,9 @@
 			"visible"		"0"
 			"wide"			"0"
 		}
-	}							
-		"BluePlayerList"
+	}	
+	
+	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"

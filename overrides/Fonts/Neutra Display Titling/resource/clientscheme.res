@@ -19,7 +19,7 @@ Scheme
 	Colors
 	{
 		// custom colors
-		"IsaacDarkGray"		"25 25 25 255"		// The Most dominant color in the hud
+		"IsaacDarkGray"		"25 25 25 255"		// Main color of the hud
 		"IsaacDarkGray2"		"30 30 30 255"		// Mostly used in menus
 		"IsaacMediumGray"		"40 40 40 255"		
 		
@@ -338,7 +338,7 @@ Scheme
 		RichText.SelectedTextColor		"Gray"
 		RichText.SelectedBgColor		"Red"
 
-		ScrollBarButton.FgColor				"Gray"
+		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
 		ScrollBarButton.ArmedFgColor		"Gray"
 		ScrollBarButton.ArmedBgColor		"Blank"
@@ -351,7 +351,7 @@ Scheme
 		SectionedListPanel.HeaderTextColor	"Orange"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
+		SectionedListPanel.TextColor		"White"
 		SectionedListPanel.BrightTextColor	"Orange"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
@@ -1661,25 +1661,14 @@ Scheme
 			}
 		}
 		
-		"ControlPointTimer"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"	"TF2"
-				"tall"	"36"
+				"name"		"TF2"
+				"tall"		"36"
 				"weight"	"500"
-				"range"	"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1688,8 +1677,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"TF2 Secondary"
-				"tall"	"14"
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"ControlPointTimer"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2762,6 +2785,17 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 
 	}
 
@@ -3151,6 +3185,28 @@ Scheme
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		ToolTipBorder
@@ -6721,6 +6777,29 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		StoreHighlightedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"featured_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+
+		StoreHighlightedBackgroundBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_featured_item_bg01"
+			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 		
 		StoreDiscountBorder
 		{
@@ -6848,6 +6927,20 @@ Scheme
 				{
 					"color" "TanDark"
 					"offset" "0 0"
+				}
+			}
+		}
+		
+		SortCategoryBorder
+		{
+			"inset" "0 0 1 1"
+	
+			Right
+			{
+				"1"
+				{
+					"color" "White"
+					"offset" "1 0"
 				}
 			}
 		}
@@ -7007,6 +7100,55 @@ Scheme
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
+		
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+	
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////

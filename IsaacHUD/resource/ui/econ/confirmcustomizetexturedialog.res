@@ -269,7 +269,8 @@
 				"zpos"		"-1"
 				"wide"		"350"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"UseAvatarRadio"
 				{
@@ -280,6 +281,7 @@
 					"wide"				"330"
 					"tall"				"20"
 					"labelText"		"#ToolCustomizeTextureUseAvatarImage"
+					"fgcolor_override"	"White"
 					"textAlignment"		"west"
 					"font"			"HudFontSmallBold"
 				}
@@ -338,7 +340,8 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"PreviewCroppedImage"
 				{
@@ -445,7 +448,8 @@
 				"zpos"		"-1"
 				"wide"		"160"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"FilterLabel"
 				{
@@ -623,7 +627,8 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"PreviewFilteredImage"
 				{
@@ -646,25 +651,8 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
-
-				"GradientBgPanel"
-				{
-					"ControlName"	"ImagePanel"
-					"FieldName"		"GradientBgPanel"
-					"xpos"			"10"
-					"ypos"			"10"
-					"zpos"			"1"
-					"wide"			"160"
-					"tall"			"180"
-					"visible"		"1"
-					"tileImage"		"0"
-					"scaleImage"	"1"
-					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
-					"paintbackgroundtype"	"2"
-					"paintbackground"	"1"
-				}
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"DragToRotateLabel"
 				{
@@ -768,7 +756,8 @@
 				"zpos"		"-1"
 				"wide"		"350"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"WarningText"
 				{
@@ -794,25 +783,8 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
-
-				"GradientBgPanel"
-				{
-					"ControlName"	"ImagePanel"
-					"FieldName"		"GradientBgPanel"
-					"xpos"			"10"
-					"ypos"			"10"
-					"zpos"			"1"
-					"wide"			"160"
-					"tall"			"180"
-					"visible"		"1"
-					"tileImage"		"0"
-					"scaleImage"	"1"
-					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
-					"paintbackgroundtype"	"2"
-					"paintbackground"	"1"
-				}
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
 				"DragToRotateLabel"
 				{
@@ -918,25 +890,9 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"IsaacDarkGray"
 
-				"GradientBgPanel"
-				{
-					"ControlName"	"ImagePanel"
-					"FieldName"		"GradientBgPanel"
-					"xpos"			"10"
-					"ypos"			"10"
-					"zpos"			"1"
-					"wide"			"160"
-					"tall"			"180"
-					"visible"		"1"
-					"tileImage"		"0"
-					"scaleImage"	"1"
-					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
-					"paintbackgroundtype"	"2"
-					"paintbackground"	"1"
-				}
 
 				"DragToRotateLabel"
 				{
