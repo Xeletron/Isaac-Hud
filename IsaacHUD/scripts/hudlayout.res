@@ -35,7 +35,7 @@
 		"fieldName"	"TransparentViewmodelMask"
 
 		//Change to 1 to enable, 0 to disable
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
 		
 		"xpos"	"0"
