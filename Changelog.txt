@@ -79,3 +79,8 @@ Version 1.8.1 (2016.07.15)
 - Added the ability to rotate the model in the class selection screen
 - Reworked Stopwatch
 - Updated decal application panel
+
+Version 1.9 (2017.02.21)
+- Reworked Main menu
+- Migrated hudanimations_tf to hudanimations_isaac
+- Updated the matchmaking panel

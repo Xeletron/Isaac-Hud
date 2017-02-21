@@ -163,25 +163,4 @@
 		"armedFgColor_override" "0 0 0 0"
 		"armedBgColor_override"	"40 40 40 150"
 	}
-	
-	"Line"
-    {
-        "ControlName"   "CTFImagePanel"
-        "fieldName"     "Line"
-        "xpos"          "263"
-        "ypos"          "0"
-        "zpos"          "101"
-        "wide"          "3"
-        "tall"          "50"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "1"
-        "enabled"       "1"
-        "scaleImage"    "1" 
-        "image"         "../hud/color_panel_blu"
-        "src_corner_height"     "12"
-        "src_corner_width"      "12"
-        "draw_corner_width"     "0"
-        "draw_corner_height"    "0" 
-    } 
 }

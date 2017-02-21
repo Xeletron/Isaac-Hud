@@ -1,28 +1,29 @@
 "GameMenu" [$WIN32]
 {
-	"ViewWarButtonButton"
-	{
-		"label"			"VS"
-		"Command"		"view_war"
-		"tooltip" 		"#MMenu_ViewWar"
-	}
-	"QuickplayButton"
+	"DummyButton"
 	{
 		"label" "#MMenu_PlayList_Casual_Button" 
 		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 	}
-	"PlayPVEButton"
+	
+	"CasualButton"
 	{
-		"label" "#MMenu_PlayList_MvM_Button" 
+		"label" "#MMenu_PlayList_Casual_Button" 
+		"command" "play_casual"
+		"subimage" "glyph_multiplayer"
+	}
+	"MvMButton"
+	{
+		"label" "MvM" 
 		"command" "play_mvm"
 		"subimage" "glyph_coop"
 	}
-	"PlayCompetitiveButton"
+	"CompetitiveButton"
 	{
 		"label" "#MMenu_PlayList_Competitive_Button" 
 		"command" "play_competitive"
-		"subimage" "glyph_practice"
+		"subimage" "replay/thumbnails/glyph_competitive"
 	}
 	"ServerBrowserButton"
 	{
@@ -43,12 +44,14 @@
 		"label" "#GameUI_GameMenu_ReplayDemos"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
+		"tooltip" "#GameUI_GameMenu_ReplayDemos"
 	}
 	"SteamWorkshopButton"
 	{
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
+		"tooltip" "#MMenu_SteamWorkshop"
 	}
 	"VRModeButton"
 	{
@@ -59,10 +62,11 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "#MMenu_PlayList_Training_Button"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
+		"tooltip" "#MMenu_PlayList_Training_Button"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
@@ -85,6 +89,12 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"QuestButton"
+	{
+		"label" "#Quests"
+		"command" "questlog"
+		"subimage" "replay/thumbnails/button_quests"
+	}	
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
@@ -168,5 +178,13 @@
 		"subimage"		"glyph_close_X"
 		"OnlyInGame"	"1"
 		"tooltip" 		"#TF_Quit_Title"
+	}
+	
+	"DisconnectButton"
+	{
+		"label"			"#GameUI_GameMenu_Disconnect"
+		"command"		"engine disconnect"
+		"subimage"		"glyph_quit"
+		"OnlyInGame"	"1"
 	}
 }
