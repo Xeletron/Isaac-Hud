@@ -29,6 +29,7 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
+		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
@@ -36,6 +37,19 @@ Scheme
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
 		"QuestStandardHighlight"	"0 255 0 255"
 		"QuestBonusHighlight"		"150 160 255 255"
+		"QuestUncommitted"	"183 147 100 255"
+
+		"QuestMap_Bonus"	"222 217 166 255"
+		"QuestMap_ActiveOrange"	"212 127 25 255"
+		"QuestMap_InactiveGrey"	"100 100 100 255"
+		"QuestMap_BGImages"	"56 58 60 255"
+
+		"PartyMember1"	"124 173 255 255"
+		"PartyMember2"	"99  232 167 255"
+		"PartyMember3"	"229 255 121 255"
+		"PartyMember4"	"232 184 99  255"
+		"PartyMember5"	"255 118 108 255"
+		"PartyMember6"	"255 133 255 255"
 		
 		
 		"White"				"235 235 235 255"
@@ -316,7 +330,7 @@ Scheme
 
 		HTML.BgColor					"Blank"
 
-		ProgressBar.FgColor				"White"
+		ProgressBar.FgColor				"70 70 70 180"
 		ProgressBar.BgColor				"60 60 60 255"
 
 		CircularProgressBar.FgColor		"White"
@@ -942,6 +956,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
+				"tall_lodef" "30"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1036,6 +1051,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
+				"tall_lodef"	"13"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2236,6 +2252,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -2278,7 +2305,18 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
 		
 		"AchievementTracker_Name"
 		{
@@ -2325,6 +2363,66 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
+			}
+		}
+"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"
@@ -2608,6 +2706,30 @@ Scheme
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
+			}
+		}
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
 			}
 		}
 		
@@ -4634,27 +4756,101 @@ Scheme
 		// PaintkitWeapon ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_PaintkitWeapon
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeapon"
-			
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+			}	
 		}
 		BackpackItemMouseOverBorder_PaintkitWeapon
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeapon"
-			
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "2 2"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QualityColorPaintkitWeapon"
+					"offset" "1 2"
+				}
+			}		
 		}
 		BackpackItemGreyedOutBorder_PaintkitWeapon
 		{
@@ -6824,7 +7020,226 @@ Scheme
 			"draw_corner_width" "8" // screen size of the corners ( and sides ), proportional
 			"draw_corner_height" "8"
 		}
+		CYOAScreenBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/cyoa_map_screen_border"
+			"src_corner_height"		"63"				// pixels inside the image
+			"src_corner_width"		"63"
+			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"26"	
+		}
 
+		CYOANodeViewBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_Active
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_active"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_Inactive
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_inactive"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_TurnIn
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_turnin"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOAPopupBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FriendHighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FriendHighlightBorderThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+		}
 		OuterShadowBorderThin
 		{
 			"bordertype" "scalable_image"
@@ -7236,243 +7651,58 @@ Scheme
 		{
 			"font" "resource/TF2.ttf"
 			"name" "TF2"
-			"turkish"
+			"russian"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
 		}
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
-			"english"
+			"russian"
 			{
-				"range" "0x0000 0x2014"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
 		}
 		"5" 
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
-			"turkish"
+			"russian"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0x00FF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0x00FF"
 			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}	
 		}	
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"turkish"
+			"russian"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
+			"turkish"
 			{
-				"range" "0x0000 0x00F8"
+				"range" "0x0000 0xFFFF"
 			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}
-		}
-		
+		}			
 		"7" "resource/ocra.ttf"
 		"8" 
 		{

@@ -9,10 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"IsaacMediumGray"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"NoBoder"
+		"border"				"NoBorder"
 	}
 
 	"mouseoveritempanel"
@@ -25,10 +25,11 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"IsaacMediumGray"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
+		"border"				"NoBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"

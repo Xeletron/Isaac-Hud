@@ -5,7 +5,7 @@
 		"ControlName"   "CExLabel"
 		"fieldName"     "HudLabel"
 		"font"          "HudFontSmallestBold"
-		"labelText"     "Isaac Hud 1.9"
+		"labelText"     "Isaac Hud 1.9.1"
 		"textAlignment" "east"
 		"xpos"          "r152"
 		"ypos"          "r15"

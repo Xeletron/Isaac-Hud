@@ -31,7 +31,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"IsaacDarkGray"
 	}	
 	"HudHealthTeamLine"
 	{
@@ -147,7 +147,23 @@
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
+	}
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"0"
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"6"
+		"wide"			"72"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"TanDark"
+	}		
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -177,6 +193,22 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"117"
+		"xpos_minmode"	"102"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -562,6 +594,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
 }

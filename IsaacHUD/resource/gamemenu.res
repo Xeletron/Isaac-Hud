@@ -6,39 +6,6 @@
 		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 	}
-	
-	"CasualButton"
-	{
-		"label" "#MMenu_PlayList_Casual_Button" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-	}
-	"CompetitiveButton"
-	{
-		"label" "#MMenu_PlayList_Competitive_Button" 
-		"command" "play_competitive"
-		"subimage" "replay/thumbnails/glyph_competitive"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "#MMenu_Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
 	"ReplayBrowserButton"
 	{
 		"label" "#GameUI_GameMenu_ReplayDemos"
@@ -59,23 +26,6 @@
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
-	}
-	"TrainingButton"
-	{
-		"label" "#MMenu_PlayList_Training_Button"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"tooltip" "#MMenu_PlayList_Training_Button"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
@@ -134,6 +84,14 @@
 	
 	
 	// Custom Buttons
+
+	"IngameLine"
+	{
+		"label"			"#MMenu_PlayList_Casual_Button"
+		"command"		"toggle_play_menu"
+		"subimage"		"glyph_alert"
+		"OnlyInGame"	"1"
+	}
 	
 	"ConsoleButton"
 	{
@@ -159,7 +117,7 @@
 	
 	"TF2SettingsButton"
 	{
-		"label"			""
+		"label"			"+"
 		"Command"		"opentf2options"
 		"tooltip" 		"#MMenu_AdvOptions"
 	}
@@ -184,7 +142,7 @@
 	{
 		"label"			"#GameUI_GameMenu_Disconnect"
 		"command"		"engine disconnect"
-		"subimage"		"glyph_quit"
+		"subimage"		"glyph_disconnect"
 		"OnlyInGame"	"1"
 	}
 }

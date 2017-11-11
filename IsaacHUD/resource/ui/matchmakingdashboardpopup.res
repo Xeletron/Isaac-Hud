@@ -80,10 +80,8 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"paintBackground"	"1"
-				"border"		"NoBorder"
-				"bgcolor_override"	"IsaacDarkGray"
+				"PaintBackgroundType"	"2"
+				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -314,10 +312,8 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"paintBackground"	"1"
-				"border"		"NoBorder"
-				"bgcolor_override"	"IsaacDarkGray"
+				"PaintBackgroundType"	"2"
+				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -427,10 +423,8 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"paintBackground"	"1"
-				"border"		"NoBorder"
-				"bgcolor_override"	"IsaacDarkGray"
+				"PaintBackgroundType"	"2"
+				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -542,10 +536,8 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"paintBackground"	"1"
-				"border"		"NoBorder"
-				"bgcolor_override"	"IsaacDarkGray"
+				"PaintBackgroundType"	"2"
+				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -605,7 +597,7 @@
 				"brighttext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_Rejoin_Abandon"
+				"labeltext"		"#TF_MM_Rejoin_Leave"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
@@ -674,10 +666,8 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"paintBackground"	"1"
-				"border"		"NoBorder"
-				"bgcolor_override"	"IsaacDarkGray"
+				"PaintBackgroundType"	"2"
+				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
 			}
 

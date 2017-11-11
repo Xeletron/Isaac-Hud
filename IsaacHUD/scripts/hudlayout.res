@@ -17,7 +17,7 @@
 		"fgcolor" "255 255 255 255"
 		
 		//Play around with these values if the crosshair is not fully at the center. 
-		"xpos"      "c-20"
+		"xpos"      "c-19"
         "ypos"      "c-18"
 		
 		"enabled"	 "1"       
@@ -230,10 +230,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-125"
+		"xpos"					"c-75"
 		"ypos"					"r80"
 		"wide"					"116"
-		"tall"  				"180"
+		"tall"  				"40"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1434,5 +1434,20 @@
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"f0"
+	}
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 }

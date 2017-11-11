@@ -84,3 +84,6 @@ Version 1.9 (2017.02.21)
 - Reworked Main menu
 - Migrated hudanimations_tf to hudanimations_isaac
 - Updated the matchmaking panel
+
+Version 1.9.1
+- Compatibility with the Jungle Inferno update

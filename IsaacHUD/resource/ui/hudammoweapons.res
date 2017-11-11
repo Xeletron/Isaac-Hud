@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAmmoBackground"
-		"xpos"			"00"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"69"

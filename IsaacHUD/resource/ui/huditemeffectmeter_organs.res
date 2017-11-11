@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,10 +6,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c80"	[$WIN32]
-		"ypos"			"r96"	[$WIN32]
+		"ypos"			"r38"	[$WIN32]
 		"wide"			"70"
 		"tall"			"14"
-		"MeterFG"		"IsaacDarkGray"
+		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 	
@@ -22,16 +22,17 @@
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"0"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
+		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
+
 	"MeterBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -49,29 +50,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacDarkGray"
 	}
-	
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"2"
-		"ypos"					"3"
-		"zpos"					"2"
-		"wide"					"64"
-		"tall"					"8"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"70 70 70 180"
-		"fgcolor_override"		"IsaacDarkGray"
-			
-	}
-	
 	"MeterTeamLine"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -102,14 +80,60 @@
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"3"
-		"wide"					"68"
-		"tall"					"14"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
+		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"HudFontSmallestBold"
-		"fgcolor_override"		"IsaacDarkGray"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TFFontSmall"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+		"zpos"					"2"
+		"wide"					"40"
+		"wide_minmode"			"50"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
 	}					
+	
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"30"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"14"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"Center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontSmallBold"
+	}	
 }
