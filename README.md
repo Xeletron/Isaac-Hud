@@ -43,13 +43,6 @@ Overrides are included in the `overrides` folder. If you want to see more you ca
 * mat_disable_bloom 1
 * mat_hdr_level 0
 
-##Favorite Server##
-
-* Open the gamemenu.res file inside the resource folder
-* Find the FavServerButton part
-* Replace the <IP> part with the IP of your chosen sever
-* You can change the tooltip to whatever you want
-
 
 # Special Thanks
 
