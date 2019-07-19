@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"IsaacDarkGray"
+		"bgcolor_override"	"IsaacDarkGray2"
 	}
 	
 	"SearchTextEntry"
@@ -45,9 +45,9 @@
 	{
 		"ControlName"	"PanelListPanel"
 		"fieldName"		"ReplayList"
-		"xpos"			"c-300"
+		"xpos"			"0"
 		"ypos"			"20"
-		"wide"			"605"
+		"wide"			"f0"
 		"tall"			"350"
 		"visible"		"1"
 		"enabled"		"1"

@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -53,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"100"
+			"fov"			"70"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -76,7 +81,7 @@
 				"angles_x"	"0"
 				"angles_y"	"180"
 				"angles_z"	"0"
-				"origin_x"		"45"
+				"origin_x"		"75"
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"	"1"
@@ -117,6 +122,11 @@
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
+
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -179,11 +189,9 @@
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"63"
+		"tall"			"f40"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"PaintBackground"		"1"
-		"bgcolor_override"		"IsaacDarkGray"
+		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -194,50 +202,65 @@
 			"wide"			"505"
 		}
 
-		"NameLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
-			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"White"
-			"textAlignment"	"north-west"
-			"labelText"		"%name%"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"visible"	"0"
-			}
-		}
-
-		"LevelLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"65"
-			"ypos"			"20"
-			"wide"			"f0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"rs1-5"
+			"ypos"			"27"
+			"wide"			"f70"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"White"
-			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"textAlignment"	"center"
+			"labelText"		"%desc1%"
+			"proportionaltoparent"	"1"
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"rs1-5"
+			"ypos"			"44"
+			"wide"			"f70"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
+			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -274,8 +297,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"0"
-					"ypos"			"rs1"
+					"xpos"			"2"
+					"ypos"			"rs1-3"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -292,8 +315,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"rs1"
-					"ypos"			"rs1"
+					"xpos"			"rs1-2"
+					"ypos"			"rs1-3"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -313,7 +336,7 @@
 					"xpos"			"0"
 					"ypos"			"rs1-10"
 					"wide"			"p1"
-					"tall"			"7"
+					"tall"			"5"
 					"proportionaltoparent"	"1"
 
 					"ProgressBar"
@@ -328,7 +351,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"IsaacDarkGray"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -339,7 +362,7 @@
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"wide"			"f2"
-						"tall"			"f2"
+						"tall"			"f3"
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
@@ -352,8 +375,8 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
-						"tall"			"f0"
+						"wide"			"0"
+						"tall"			"0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"

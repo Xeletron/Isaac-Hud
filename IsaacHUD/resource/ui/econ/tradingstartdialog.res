@@ -9,10 +9,10 @@
 		"ypos"					"30"
 		"wide"					"400"
 		"tall"					"400"
-		"bgcolor_override"		"IsaacMediumGray"
+		"bgcolor_override"		"IsaacDarkGray"
 		"paintbackgroundtype"	"1"
 		"settitlebarvisible"	"0"
-		"border"				"NoBorder"
+		"border"				"EconItemBorder"
 		
 		"button_kv"
 		{

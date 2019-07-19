@@ -143,7 +143,7 @@
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"300"
-		"tall"			"35"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"labelText"		""
@@ -156,7 +156,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_armed"		"NoBorder"
+		"border_default"	"MainMenuSubButtonBorderTop"
 			
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"

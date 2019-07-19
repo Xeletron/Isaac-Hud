@@ -435,16 +435,16 @@ event IntroMovieContinueBlinkStop
 
 event HasMOTDBlink
 {
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.0 0.1
+	Animate	SubImage 	Alpha		"0"			Linear 0.2 0.1
 		
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.4 0.1
+	Animate	SubImage 	Alpha		"0"			Linear 0.6 0.1
 	
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.8 0.1
+	Animate	SubImage 	Alpha		"0"			Linear 1.0 0.1
 	
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent HasMOTDBlinkLoop		2.0
 }
@@ -458,23 +458,23 @@ event HasMOTDBlinkStop
 {
 	StopEvent HasMOTDBlink				0.0
 	StopEvent HasMOTDBlinkLoop 		0.0
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.0 0.1
 }
 
 //===========================================
 
 event HasNotificationsBlink
 {
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.0 0.1
+	Animate	SubImage 	Alpha		"0"			Linear 0.2 0.1
 		
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.4 0.1
+	Animate	SubImage 	Alpha		"0"			Linear 0.6 0.1
 	
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.8 0.1
+	Animate	SubImage 	Alpha		"0"			Linear 1.0 0.1
 	
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent HasNotificationsBlinkLoop		2.0
 }
@@ -488,7 +488,7 @@ event HasNotificationsBlinkStop
 {
 	StopEvent HasNotificationsBlink				0.0
 	StopEvent HasNotificationsBlinkLoop 		0.0
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	SubImage 	Alpha		"255"		Linear 0.0 0.1
 }
 
 //===========================================
@@ -517,16 +517,10 @@ event AddToCartBlink
 
 event NotificationsPresentBlink
 {
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
-	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
-		
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
-	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.6 0.1
+	Animate	NotificationsPresentPanel 	bgcolor		"IsaacDarkGray"		Linear 0.0 1.0
+	Animate	NotificationsPresentPanel 	bgcolor		"IsaacMediumGray"			Linear 1.0 1.0
 	
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.8 0.1
-	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 1.0 0.1
-	
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.2 0.1
+	Animate	NotificationsPresentPanel 	bgcolor		"IsaacDarkGray"		Linear 2.0 1.0
 
 	RunEvent NotificationsPresentBlinkLoop		2.0
 }
@@ -540,7 +534,7 @@ event NotificationsPresentBlinkStop
 {
 	StopEvent NotificationsPresentBlink				0.0
 	StopEvent NotificationsPresentBlinkLoop 		0.0
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+	Animate	NotificationsPresentPanel 	bgcolor		"IsaacDarkGray"		Linear 0.0 0.1
 }
 
 //===========================================

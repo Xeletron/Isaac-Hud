@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"IsaacDarkGray"
+		"bgcolor_override"	"IsaacDarkGray2"
 	}
 	"MainBackground"
 	{

@@ -13,11 +13,11 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"IsaacDarkGray"
+		"bgcolor_override"	"IsaacDarkGray2"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"thumbnail_bgcolor"			"30 30 30 200"
+		"thumbnail_bgcolor"			"IsaacDarkGray"
 		"thumbnail_bgcolor_mouseover"	"50 50 50 200"
 		"thumbnail_bgcolor_selected"	"70 70 70 200"
 		
@@ -151,8 +151,8 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-		"bgcolor_override"	"IsaacMediumGray"
-		"border"		"NoBorder"
+		"bgcolor_override"	"IsaacDarkGray"
+		"border"		"EconItemBorder"
 
 		"Data_TextRichText"
 		{
@@ -296,6 +296,8 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}		
 	
 	"CurPageLabel"
@@ -339,6 +341,8 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}	
 		
 	"WikiButton"
@@ -364,6 +368,8 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}		
 	
 	"ViewSetButton"
@@ -389,6 +395,8 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}		
 	
 	"StoreButton"
@@ -413,6 +421,8 @@
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}		
 	
 	"ReloadSchemeButton"

@@ -16,7 +16,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"IsaacDarkGray"
+		"bgcolor_override"	"IsaacDarkGray2"
 		"infocus_bgcolor_override" "IsaacDarkGray"
 		"outoffocus_bgcolor_override" "IsaacDarkGray"
 

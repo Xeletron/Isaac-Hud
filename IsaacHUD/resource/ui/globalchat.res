@@ -5,15 +5,14 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"50"
-		"zpos"					"1001"
-		"wide"					"200"
+		"xpos"					"rs1-135"
+		"ypos"					"20"
+		"zpos"					"999"
+		"wide"					"188"
 		"tall"					"200"
-		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
-		"border"		"QuickplayBorder"
+		"border"		"NoBorder"
 
 		"log_font_small"			"HudFontSmall"
 		"log_font_medium"			"HudFontMediumSmallSecondary"
@@ -29,7 +28,21 @@
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 	}
-
+	"ChatBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ChatBackground"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"190"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"PaintBackgroundType"	"0"
+		"PaintBackground"		"1"
+		"bgcolor_override"		"IsaacDarkGray"
+	}
 	"chatlog"
 	{
 		// "ControlName"	"richtext"
@@ -44,15 +57,16 @@
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		
-		"bgcolor_override"	"0 0 0 50"
+		"PaintBackground"	"0"
+		"bgcolor_override"	"0 0 0 0"
 
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		"autoResize"	"1"
 
 		"ScrollBar"
 		{
 			"FieldName"		"ScrollBar"
-			"xpos"			"rs1-1"
+			"xpos"			"rs1"
 			"ypos"			"0"
 			"tall"			"f0"
 			"wide"			"5" // This gets slammed from client schme.  GG.
@@ -62,7 +76,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 			}
 		
 			"UpButton"
@@ -85,39 +99,34 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"15"
+		"xpos"					"rs1-135"
+		"ypos"					"216"
+		"zpos"			"0"
+		"wide"			"188"
+		"tall"			"13"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"IsaacMediumGray"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
+		"alpha"			"0"
+		"mouseinputenabled"	"0"
 
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		//"autoResize"	"1"
 	}
-
-	"EntryShadow"
+	"ChatLine"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"EntryShadow"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PartyLine"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"15"
+		"zpos"			"4"
+		"wide"			"190"
+		"tall"			"1"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"RoundedCorners"	"0"
-		"border"		"QuickplayBorder"
-
-		"keyboardinputenabled"	"0"
-		"mouseinputenabled"		"0"
-
-		"pinCorner"		"2"
+		"PaintBackgroundType"	"0"
+		"PaintBackground"		"1"
+		"bgcolor_override"		"QualityColorNormal"
 	}
 }

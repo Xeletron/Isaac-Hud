@@ -51,13 +51,13 @@ Scheme
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
 		
-		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
+		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -235,12 +235,12 @@ Scheme
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
-		Econ.Dialog.BgColor									"30 30 30 255"
+		Econ.Dialog.BgColor									"IsaacDarkGray2"
 		Econ.Button.BgColor									"50 50 50 255"
 		Econ.Button.FgColor									"White"
-		Econ.Button.ArmedBgColor							"70 70 70 255"
+		Econ.Button.ArmedBgColor							"IsaacMediumGray"
 		Econ.Button.ArmedFgColor							"White"
-		Econ.Button.DepressedBgColor						"70 70 70 255"
+		Econ.Button.DepressedBgColor						"IsaacMediumGray"
 		Econ.Button.DepressedFgColor						"White"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
@@ -258,7 +258,7 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"50 50 50 255"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"70 70 70 255"
+		Button.ArmedBgColor				"IsaacMediumGray"
 		Button.SelectedTextColor		"White"
 		Button.SelectedBgColor			"90 90 90 255"
 		Button.DepressedTextColor		"White"
@@ -274,7 +274,7 @@ Scheme
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
-		ComboBoxButton.BgColor			"30 30 30 255"
+		ComboBoxButton.BgColor			"IsaacDarkGray2"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
 		Frame.BgColor					"TransparentBlack"
@@ -377,7 +377,7 @@ Scheme
 		Slider.TextColor			"127 140 127 255"
 		Slider.TrackColor			"31 31 31 255"
 		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.DisabledTextColor2	"IsaacDarkGray2"
 
 		TextEntry.TextColor			"White"
 		TextEntry.BgColor			"Blank"
@@ -3245,6 +3245,39 @@ Scheme
 				}
 			}
 		}
+
+		MainMenuSubButtonBorderTop
+		{
+			"inset" "0 0 1 1"
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+		}
+		MainMenuSubButtonBorderTopRight
+		{
+			"inset" "0 0 1 1"
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+		}
 		
 		CrosshatchedBackground
 		{
@@ -3457,7 +3490,124 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
-		
+		IsaacTabsUnselectedBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "QualityColorNormal"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QualityColorNormal"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Blank"
+					"offset" "1 2"
+				}
+			}
+		}
+		IsaacTabsSelectedBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "HUDBlueTeamSolid"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HUDBlueTeamSolid"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Blank"
+					"offset" "1 2"
+				}
+			}
+		}
 		EconItemBorder
 		{
 			
@@ -7266,7 +7416,7 @@ Scheme
 		StoreHighlightedBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"featured_corner"
 			"src_corner_height"		"32"				// pixels inside the image
@@ -7278,7 +7428,7 @@ Scheme
 		StoreHighlightedBackgroundBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"store/store_featured_item_bg01"
 			"src_corner_height"		"80"				// pixels inside the image

@@ -87,17 +87,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"White"
 	}
 	
 	"LearnMoreButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LearnMoreButton"
-		"xpos"			"c176"
+		"xpos"			"c164"
 		"ypos"			"28"
-		"zpos"			"5"
-		"wide"			"111"
+		"zpos"			"6"
+		"wide"			"110"
 		"tall"			"19"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -114,5 +114,7 @@
         "border_armed"              "NoBorder"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}	
 }

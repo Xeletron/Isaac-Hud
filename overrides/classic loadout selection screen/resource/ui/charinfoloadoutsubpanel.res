@@ -5,9 +5,9 @@
 		"ControlName"	"Frame"
 		"fieldName"		"CharInfoLoadoutSubPanel"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"20"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"520"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"0 0 0 0"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
@@ -31,8 +31,8 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
-		"itemcountcolor_noitems"	"117 107 94 255"
+		"itemcountcolor"			"White"
+		"itemcountcolor_noitems"	"White"
 	}
 	
 	"scout"

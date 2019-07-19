@@ -14,7 +14,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"IsaacDarkGray"
+		"bgcolor_override"	"IsaacDarkGray2"
 		"infocus_bgcolor_override" "IsaacDarkGray"
 		"outoffocus_bgcolor_override" "IsaacDarkGray"
 		
@@ -177,7 +177,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "IsaacDarkGray"
+		"bgcolor_override" "IsaacDarkGray2"
 	}
 	
 	"TauntLoadoutButton"
@@ -286,11 +286,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-135"
+		"xpos"			"c-150"
 		"ypos"			"60"
 		"zpos"			"-2"		
-		"wide"			"270"
-		"tall"			"300"
+		"wide"			"300"
+		"tall"			"315"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -317,57 +317,6 @@
 		
 			"modelname"		""
 			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 	
@@ -415,7 +364,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedTeamColorButton"
-		"xpos"				"c-67"
+		"xpos"				"c-70"
 		"ypos"				"60"
 		"zpos"				"21"	
 		"wide"				"20"
@@ -442,7 +391,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueTeamColorButton"
-		"xpos"				"c44"
+		"xpos"				"c46"
 		"ypos"				"60"
 		"zpos"				"21"	
 		"wide"				"20"

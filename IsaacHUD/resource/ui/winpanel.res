@@ -211,15 +211,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
-		"xpos"			"12"
-		"ypos"			"75"
-		"zpos"			"0"
-		"wide"			"268"
-		"tall"			"2"
+		"xpos"			"11"
+		"ypos"			"74"
+		"zpos"			"-2"
+		"wide"			"271"
+		"tall"			"112"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"border"		"TFFatLineBorderBlueBG"
+		"border"		"TFFatLineBorderBlueBGOpaque"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -237,6 +237,7 @@
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
+		"paintborder"			"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"IsaacDarkGray"
 	}

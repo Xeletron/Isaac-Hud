@@ -6,17 +6,16 @@
 	{
 		"fieldName"		"PingPanel"
 		"xpos"			"-300"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"300"
-		"tall"			"f70"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"datacenter_y"	"3"
 		"datacenter_y_space"	"1"
 	}
-
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -28,10 +27,31 @@
 		"tall"			"f-50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 	}
-
+	"PingPanelLine"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PingPanelLine"
+		"xpos"			"298"
+		"ypos"			"0"
+		"zpos"			"200"
+		"wide"			"2"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../hud/color_panel_blu"
+		"teambg_2"		"../hud/color_panel_blu"
+		"teambg_3"		"../hud/color_panel_red"
+		"src_corner_height"		"12"
+		"src_corner_width"		"12"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}
 	"Title"
 	{
 		"ControlName"		"Label"
@@ -45,7 +65,7 @@
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBold"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -64,7 +84,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"White"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -211,7 +231,7 @@
 		"textAlignment"	"north-west"
 		"font"			"HudFontSmallest"
 		"wrap"		"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"		"White"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -299,7 +319,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"White"
 				}
 		
 				"UpButton"
@@ -328,7 +348,7 @@
 			"tall"			"f0"
 			"zpos"			"5"
 			"proportionaltoparent"	"1"
-			"border"		"InnerShadowBorder"
+			"border"		"EconItemBorder"
 			"mouseinputenabled"	"0"
 		}
 			
@@ -345,8 +365,8 @@
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
-			"paintborder"	"1"
-			"border"		"ReplayDefaultBorder"
+			"paintborder"	"0"
+			"border"		"NoBorder"
 		}
 	}
 }

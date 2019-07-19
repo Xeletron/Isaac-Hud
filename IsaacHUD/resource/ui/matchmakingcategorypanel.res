@@ -9,7 +9,7 @@
 		"tall"					"50"
 		"proportionaltoparent"	"1"
 
-		"collapsed_height"	"35"
+		"collapsed_height"	"57"
 		"resize_time"	"0.2"
 	
 	}
@@ -22,7 +22,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"57"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
@@ -51,14 +51,27 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"180"
-			"tall"			"40"
+			"wide"			"o4"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"
 		}
-
+		"DropShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"DropShadow"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"o4"
+			"tall"			"f0"
+			"visible"		"1"
+			"PaintBackgroundType"	"0"
+			"border"		"InnerShadowBorder"
+			"proportionaltoparent"	"1"
+		}
 		"EntryToggleButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -67,32 +80,30 @@
 			"ypos"			"rs1"
 			"zpos"			"100"
 			"wide"			"f0"
-			"tall"			"9"
+			"tall"			"10"
 			"proportionaltoparent"	"1"
 
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
-			"textAlignment"	"west"
+			"textAlignment"	"east"
 			"font"	"MMenuPlayListDesc"
 			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
-			
+
 			"border_default"	"NoBorder"
+			"defaultBgColor_override"	"25 25 25 100"
 
 			"border_armed"		"NoBorder"
-			
-			"defaultBgColor_override"	"IsaacDarkGray"
-			"armedBgColor_override"	"IsaacMediumGray"
-			"selectedBGColor_override" "IsaacMediumGray"
+			"armedBgColor_override"	"30 30 30 255"
+			"selectedBGColor_override" "30 30 30 255"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_default"	"/pve/buy_disabled"
-			"image_armed"	"/pve/buy_selected"
+			"image_default"	"glyph_expand"
 
 			"button_activation_type"	"1"
 
@@ -100,11 +111,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"cs-0.5"
+				"xpos"			"rs1-5"
+				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"o1"
-				"tall"			"p.9"
+				"wide"			"10"
+				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -121,44 +132,44 @@
 			"ypos"				"0"
 			"zpos"				"0"
 			"wide"				"f0"
-			"tall"				"57"
+			"tall"				"f0"
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"150 0 0 0"
 		}
 
 		"Checkbutton"
 		{
 			"ControlName"		"CExCheckButton"
 			"fieldName"		"Checkbutton"
-			"xpos"		"0"
-			"ypos"		"5"
+			"xpos"		"-20"
+			"ypos"		"0"
 			"zpos"		"3"
-			"wide"		"250"
-			"tall"		"80"
+			"wide"		"f0"
+			"tall"		"f0"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"smallcheckimage"	"1"
 
 			"sound_depressed"	"UI/buttonclickrelease.wav"	
+			"button_activation_type"	"1"
 		}
 
 		"Title"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"xpos"			"115"
-			"ypos"			"6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"120"
-			"tall"			"15"
+			"wide"			"f20"
+			"tall"			"f12"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
-			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -166,25 +177,32 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor"		"TanLight"
-			"paintbackground"	"1"
+			"fgcolor"		"White"
 		}	
-	}
 
-	"PlayListDropShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"p1.17-2"
-		"zpos"			"1"
-		"wide"			"p1.5"
-		"tall"			"1000"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"TitleShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleShadow"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"2"
+			"wide"			"f20"
+			"tall"			"f12"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%title_token%"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"east"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"proportionaltoparent" "1"
+			"mouseinputenabled"	"0"
+
+			"fgcolor_override"		"25 25 25 255"
+		}
 	}
 
 	"MapsContainer"
@@ -200,13 +218,14 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
+		"paintborder"	"0"
 
-		"pinCorner"		"2"
+		"pinCorner"		"0"
 		"autoResize"	"1"
 
 		"skip_autoresize"	"1"
 
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"0 0 0 0"
 	}
 }

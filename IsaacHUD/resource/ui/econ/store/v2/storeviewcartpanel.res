@@ -19,16 +19,16 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#StoreTitle"
+		"title"			""
 		"title_font"	"HudFontMediumBold"
-		"titletextinsetX"	"40"
+		"titletextinsetX"	"0"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"				"200 187 161 0"
+		"titlebardisabledfgcolor_override"		"200 187 161 0"
+		"titlebarbgcolor_override"				"46 43 42 0"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"0"
 		
 		"item_entry_kv"
 		{
@@ -47,11 +47,11 @@
 				"tall"			"58"
 				"visible"		"1"
 				"bgcolor_override"		"IsaacDarkGray2"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"117 107 94 0"
 				"PaintBackgroundType"	"0"
 				"PaintBackground"	"1"
 				"paintborder"	"1"
-				"Border"		"NoBoder"
+				"Border"		"NoBorder"
 				
 				"model_xpos"	"3"
 				"model_ypos"	"3"
@@ -152,7 +152,6 @@
 			}
 		}
 	}
-	
 	"BackgroundHeader"
 	{
 		"ControlName"	"EditablePanel"
@@ -164,7 +163,7 @@
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"		"1"
+		"paintbackground"		"0"
 		"bgcolor_override"		"IsaacDarkGray2"
 	}				
 	"BackgroundFooter"
@@ -178,7 +177,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"		"1"
+		"paintbackground"		"0"
 		"bgcolor_override"		"IsaacDarkGray2"
 	}				
 	"FooterLine"
@@ -200,11 +199,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ClientArea"
-		"xpos"			"0"
+		"xpos"			"c-250"
 		"ypos"			"55"
-		"wide"			"f0"
-		"tall"			"368"
+		"wide"			"500"
+		"tall"			"320"
 		"bgcolor_override"				"IsaacDarkGray"
+		"border"		"EconItemBorder"
 		
 		"HeaderLine"
 		{
@@ -228,8 +228,8 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
-			"xpos"			"c-300"
-			"ypos"			"25"
+			"xpos"			"5"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"350"
 			"tall"			"20"
@@ -261,11 +261,11 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
-			"xpos"			"c-300"
+			"xpos"			"0"
 			"ypos"			"62"
 			"zpos"			"6"
-			"wide"			"600"
-			"tall"			"240"
+			"wide"			"500"
+			"tall"			"200"
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -276,11 +276,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ItemListContainerScroller"
-			"xpos"			"c-300"
-			"ypos"			"62"
+			"xpos"			"0"
+			"ypos"			"30"
 			"zpos"			"5"
-			"wide"			"600"
-			"tall"			"240"
+			"wide"			"500"
+			"tall"			"280"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBoder"
 			"fgcolor_override"	"White"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
@@ -289,7 +289,7 @@
 			
 			"Scrollbar"
 			{
-				"xpos"			"586"
+				"xpos"			"500"
 				"wide"			"11"
 				"tall"			"240"
 				"zpos"			"1000"
@@ -365,7 +365,7 @@
 						"xpos"			"0"
 						"ypos"			"15"
 						"zpos"			"100"
-						"wide"			"425"
+						"wide"			"480"
 						"tall"			"15"
 						"autoResize"	"1"
 						"pinCorner"		"0"
@@ -437,17 +437,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-282"
-		"ypos"			"437"
+		"xpos"			"c89"
+		"ypos"			"56"
 		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_ContinueShopping"
+		"labelText"		"X"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -456,17 +456,20 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"		"IsaacMediumGray"
+		"defaultBgColor_override"	"IsaacDarkGray"
 	}		
 	
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
-		"xpos"			"c170"
-		"ypos"			"437"
+		"xpos"			"c119"
+		"ypos"			"56"
 		"zpos"			"2"
 		"wide"			"130"
-		"tall"			"25"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -481,6 +484,10 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"76 107 34 255"
+		"ArmedBgColor_override"	"86 117 44 255"
+		"depressedBgColor_override" "66 97 24 255"
 	}
 	
 }

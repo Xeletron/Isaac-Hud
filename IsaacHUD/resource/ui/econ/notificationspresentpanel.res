@@ -4,14 +4,14 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"c80"
-		"ypos"			"20"
+		"xpos"			"5"
+		"ypos"			"rs1-5"
 		"zpos"			"10000"
 		"wide"			"220"
-		"tall"			"20"
+		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"	"20 20 20 255"
+		"bgcolor_override"	"IsaacDarkGray"
 		"border"		"NoBorder"
 	}
 
@@ -29,10 +29,26 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		"wrap"			"1"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
-		"font"			"TFFontSmall"
+		"font"			"HudFontSmallestBold"
+		"centerwrap"	"1"
 		"proportionaltoparent"	"1"
+	}
+	"NotificationLine"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NotificationLine"
+		"xpos"			"0"
+		"ypos"			"29"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"1"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"PaintBackground"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"		"QualityColorUnique"
 	}
 }
