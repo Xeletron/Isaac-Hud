@@ -88,7 +88,7 @@ Version 1.9 (2017.02.21)
 Version 1.9.1
 - Compatibility with the Jungle Inferno update
 
-Version 1.2
+Version 1.2 (2019.07.19)
 - Reworked various menus and the dashboard
 - Changed the border of the winpanel
 - Modified the class selection screen
